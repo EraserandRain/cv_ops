@@ -1,0 +1,14 @@
+body {
+    background-color: #eee;
+    margin: 20px 0;
+}
+
+article {
+    /* a4 */
+    width: 21cm;
+    min-height: 29.7cm;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 1em;
+}
