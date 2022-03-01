@@ -10,6 +10,6 @@
   },
   "scripts": {
     "parcel":"parcel src/index.html",
-    "parcel-build":"parcel build src/index.html"
+    "build":"bash ./build.sh"
   }
 }
