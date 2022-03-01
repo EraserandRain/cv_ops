@@ -6,10 +6,12 @@
   "author": "EraserandRain <1349291258@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "cssnano": "^5.0.17",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.2.15"
   },
   "scripts": {
-    "parcel":"parcel src/index.html",
-    "build":"bash ./build.sh"
+    "parcel": "parcel src/index.html",
+    "build": "bash ./build.sh"
   }
 }
