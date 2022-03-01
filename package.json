@@ -1,0 +1,15 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "repository": "git@github.com:EraserandRain/cv.git",
+  "author": "EraserandRain <1349291258@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "parcel":"parcel src/index.html",
+    "parcel-build":"parcel build src/index.html"
+  }
+}
