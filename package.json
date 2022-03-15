@@ -11,7 +11,10 @@
     "postcss": "^8.2.15"
   },
   "scripts": {
-    "parcel": "parcel src/index.html",
+    "parcel": "npx parcel src/index.html",
     "build": "bash ./build.sh"
+  },
+  "dependencies": {
+    "jspdf": "^2.5.1"
   }
 }

@@ -1,14 +1,14 @@
-var myChart = echarts.init(document.getElementById('skills'));
+var myChart = echarts.init(document.getElementById('radarChart'));
 var option = {
     radar: {
         // shape: 'circle',
         indicator: [
-            { name: 'Sales', max: 100 },
-            { name: 'Administration', max: 100 },
-            { name: 'Information Technology', max: 100 },
-            { name: 'Customer Support', max: 100 },
-            { name: 'Development', max:100 },
-            { name: 'Marketing', max: 100 },
+            { name: 'HTML and CSS', max: 100 },
+            { name: 'JavaScript', max: 100 },
+            { name: 'Vue', max: 100 },
+            { name: 'Webpack', max:100 },
+            { name: 'Git', max: 100 },
+            { name: 'Linux', max: 100 },
         ]
     },
     series: [
@@ -17,7 +17,7 @@ var option = {
             type: 'radar',
             data: [
                 {
-                    value: [80, 80, 80, 80, 80, 80],
+                    value: [90, 80, 80, 70, 80, 80],
                     name: '技能雷达'
                 }
             ]
@@ -25,3 +25,14 @@ var option = {
     ]
 };
 myChart.setOption(option);
+
+// document.getElementById('btn').onclick = ()=>{
+//     // window.print()
+// }
+// import { jsPDF } from "jspdf";
+// const doc = new jsPDF();   
+// doc.html(document.body, {
+//    callback: function (doc) {
+//      doc.save("123.pdf");
+//    }
+// });

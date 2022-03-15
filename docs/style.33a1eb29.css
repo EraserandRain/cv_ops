@@ -1,0 +1,172 @@
+
+/* normalize */
+* {
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei UI", "Microsoft YaHei", "simsun", sans-serif;
+}
+body {
+  background: #eee;
+  margin: 20px 0;
+}
+article {
+  width: 21cm;
+  min-height: 29.7cm;
+  background: white;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 1em;
+  position: relative;
+}
+p {
+  margin: .3em 0;
+  color: #666;
+}
+h1 {
+  font-size: 25px;
+  margin-top: 0;
+}
+h3,h4,h5,h6 {
+  margin: 0;
+  font-weight: normal;
+}
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: #666;
+}
+strong {
+  font-weight: normal;
+  color: #f60;
+}
+a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+hr {
+  border: 1px solid #f60;
+}
+#person {
+  width: auto;
+  text-align: center;
+}
+#btn{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+/* bio */
+.bio {
+  position: relative;
+}
+
+.bio img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* projects */
+.projects p {
+  color: #666;
+}
+
+.projects strong {
+  color: #f60;
+}
+
+.projects>ol {
+  margin-top: 0;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.projects>ol>li {
+  margin-bottom: 24px;
+}
+
+.projects>ol>li>header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects>ol>li h3 {
+  display: inline-block;
+}
+/* skills */
+.skills>.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+#radarChart {
+  width: 500px;
+  height: 270px;
+  align-self: center;
+}
+
+.skills>.wrapper>ul {
+  color: #666;
+}
+
+.skills>.wrapper strong {
+  color: #f60;
+}
+
+.skills>.wrapper>ul>li {
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+/* openSource */
+.openSource header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.openSource>ul>li {
+  margin-bottom: 24px;
+}
+.openSource header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* jobs */
+.jobs>ol>li {
+  margin: 12px 0;
+}
+
+.jobs header {
+  display: flex;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.jobs header>h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.jobs header>h4 {
+  margin-left: 1em;
+  font-size: 18px;
+}
+
+.jobs header>span {
+  font-size: 18px;
+  margin-left: auto;
+}
+.jobs ol ul {
+  margin-left: 30px;
+}
+
+/*# sourceMappingURL=/style.33a1eb29.css.map */

@@ -118,27 +118,27 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"epB2":[function(require,module,exports) {
-var myChart = echarts.init(document.getElementById('skills'));
+var myChart = echarts.init(document.getElementById('radarChart'));
 var option = {
   radar: {
     // shape: 'circle',
     indicator: [{
-      name: 'Sales',
+      name: 'HTML and CSS',
       max: 100
     }, {
-      name: 'Administration',
+      name: 'JavaScript',
       max: 100
     }, {
-      name: 'Information Technology',
+      name: 'Vue',
       max: 100
     }, {
-      name: 'Customer Support',
+      name: 'Webpack',
       max: 100
     }, {
-      name: 'Development',
+      name: 'Git',
       max: 100
     }, {
-      name: 'Marketing',
+      name: 'Linux',
       max: 100
     }]
   },
@@ -146,11 +146,20 @@ var option = {
     name: 'Budget vs spending',
     type: 'radar',
     data: [{
-      value: [80, 80, 80, 80, 80, 80],
+      value: [90, 80, 80, 70, 80, 80],
       name: '技能雷达'
     }]
   }]
 };
-myChart.setOption(option);
+myChart.setOption(option); // document.getElementById('btn').onclick = ()=>{
+//     // window.print()
+// }
+// import { jsPDF } from "jspdf";
+// const doc = new jsPDF();   
+// doc.html(document.body, {
+//    callback: function (doc) {
+//      doc.save("123.pdf");
+//    }
+// });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=/main.5957ac43.js.map
+//# sourceMappingURL=/main.07eff44f.js.map
