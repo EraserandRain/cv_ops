@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.page2 {
+    page-break-before: always;
+    margin-top: 30px;
+}
+
+article #btn {
+    display: none;
+}
+
+/*# sourceMappingURL=/print.d8d48f31.css.map */
