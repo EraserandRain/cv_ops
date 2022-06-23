@@ -3,12 +3,12 @@ var option = {
     radar: {
         // shape: 'circle',
         indicator: [
-            { name: 'HTML and CSS', max: 100 },
-            { name: 'JavaScript', max: 100 },
-            { name: 'Vue', max: 100 },
-            { name: 'Webpack', max:100 },
-            { name: 'Git', max: 100 },
             { name: 'Linux', max: 100 },
+            { name: 'Docker容器化', max: 100 },
+            { name: 'Git', max: 100 },
+            { name: 'Shell自动化脚本', max: 100 },
+            { name: 'Javascript', max: 100 },
+            { name: 'TCP/IP', max:100 },
         ]
     },
     series: [
@@ -17,7 +17,7 @@ var option = {
             type: 'radar',
             data: [
                 {
-                    value: [90, 80, 80, 70, 80, 80],
+                    value: [90, 70, 80, 80, 80, 70],
                     name: '技能雷达'
                 }
             ]
