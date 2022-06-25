@@ -123,22 +123,22 @@ var option = {
   radar: {
     // shape: 'circle',
     indicator: [{
-      name: 'HTML and CSS',
+      name: 'Linux',
       max: 100
     }, {
-      name: 'JavaScript',
-      max: 100
-    }, {
-      name: 'Vue',
-      max: 100
-    }, {
-      name: 'Webpack',
+      name: 'Docker容器化',
       max: 100
     }, {
       name: 'Git',
       max: 100
     }, {
-      name: 'Linux',
+      name: 'Shell自动化脚本',
+      max: 100
+    }, {
+      name: 'Javascript',
+      max: 100
+    }, {
+      name: 'TCP/IP',
       max: 100
     }]
   },
@@ -146,15 +146,16 @@ var option = {
     name: 'Budget vs spending',
     type: 'radar',
     data: [{
-      value: [90, 80, 80, 70, 80, 80],
+      value: [90, 70, 80, 80, 80, 70],
       name: '技能雷达'
     }]
   }]
 };
-myChart.setOption(option); // document.getElementById('btn').onclick = ()=>{
-//     // window.print()
-// }
-// import { jsPDF } from "jspdf";
+myChart.setOption(option);
+
+document.getElementById('btn').onclick = function () {
+  window.print();
+}; // import { jsPDF } from "jspdf";
 // const doc = new jsPDF();   
 // doc.html(document.body, {
 //    callback: function (doc) {
@@ -162,4 +163,4 @@ myChart.setOption(option); // document.getElementById('btn').onclick = ()=>{
 //    }
 // });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=/main.3c9557d4.js.map
+//# sourceMappingURL=/main.196e83dc.js.map

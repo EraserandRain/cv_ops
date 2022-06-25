@@ -26,9 +26,9 @@ var option = {
 };
 myChart.setOption(option);
 
-// document.getElementById('btn').onclick = ()=>{
-//     // window.print()
-// }
+document.getElementById('btn').onclick = ()=>{
+    window.print()
+}
 // import { jsPDF } from "jspdf";
 // const doc = new jsPDF();   
 // doc.html(document.body, {
