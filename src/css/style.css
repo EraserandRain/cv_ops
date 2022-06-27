@@ -111,10 +111,12 @@ hr {
   width: 500px;
   height: 270px;
   align-self: center;
+  margin-bottom: 15px;
 }
 
 .skills>.wrapper>ul {
   color: #666;
+  margin-left: 10px;
 }
 
 .skills>.wrapper strong {
