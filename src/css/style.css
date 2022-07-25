@@ -94,10 +94,19 @@ hr {
 .projects>ol>li>header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0;
 }
 
 .projects>ol>li h3 {
   display: inline-block;
+  font-size: 1.3em;
+}
+.projects ul {
+  margin-left: 15px;
+}
+.projects ul li {
+  margin-left: 20px;
+  list-style: disc;
 }
 /* skills */
 .skills>.wrapper {
