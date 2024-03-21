@@ -7,7 +7,7 @@ var option = {
             { name: 'Docker容器化', max: 100 },
             { name: 'Git', max: 100 },
             { name: 'Shell自动化脚本', max: 100 },
-            { name: 'Javascript', max: 100 },
+            { name: 'Frontend', max: 100 },
             { name: 'TCP/IP', max:100 },
         ]
     },
