@@ -1,13 +1,8 @@
 name: Actions CI
-env:
-  REACT_PAGE_PATH: frontend/react/next/
 on:
   push:
     branches:
       - main
-    paths:
-      - .github/**
-      - ./**
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,7 +14,7 @@ concurrency:
 
 
 jobs:
-  github-pages-react-demo:
+  github-pages:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -28,13 +23,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            ${{ env.REACT_PAGE_PATH }}
 
       - name: Install packages and Build
         run: |
-          cd ${{ env.REACT_PAGE_PATH }}
           npm add -g pnpm
           pnpm install
           pnpm build
@@ -45,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "./${{ env.REACT_PAGE_PATH }}/out"
+          path: "./out"
 
       - name: Deploy to GitHub Pages
         id: deployment
