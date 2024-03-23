@@ -1,10 +1,9 @@
 'use client'
 
 import React from "react"
-import Bio from "./Bio"
-import Education from "./Education"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+import Bio from "./components/Bio"
+import Education from "./components/Education"
+import Projects from "./components/Projects"
 
 export default function page() {
   return (
@@ -14,6 +13,7 @@ export default function page() {
       <hr />
       <Bio />
       <Education />
+      <Projects />
     </article>
   )
-};
+}

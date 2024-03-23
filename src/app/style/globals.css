@@ -6,18 +6,84 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --main-color: #f60;
 }
 
-
+* {
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei UI", "Microsoft YaHei", "simsun", sans-serif;
+}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #eee;
+  margin: 20px 0;
+}
+
+article {
+  width: 21cm;
+  min-height: 29.7cm;
+  background: white;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 1em;
+  position: relative;
+}
+
+p {
+  margin: 0.3em 0;
+  color: #666;
+}
+
+h1 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: #666;
+}
+
+a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+hr {
+  border: 1px solid var(--main-color);
+}
+
+strong {
+  font-weight: normal;
+}
+
+#person {
+  width: auto;
+  text-align: center;
+}
+
+#btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 @layer utilities {

@@ -1,4 +1,4 @@
-import styles from './style/Bio.module.css';
+import styles from '../style/Bio.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub , faMicroblog } from '@fortawesome/free-brands-svg-icons';
 
