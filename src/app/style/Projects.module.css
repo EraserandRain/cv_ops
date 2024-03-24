@@ -1,10 +1,4 @@
-.projects p {
-  color: #666;
-}
 
-.projects .strong {
-  color: var(--main-color);
-}
 
 .projects > ol {
   margin-top: 0;

@@ -11,11 +11,11 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Microsoft YaHei UI", "Microsoft YaHei", "simsun", sans-serif;
 }
 
 body {
   background: #eee;
+  font-family: "Microsoft YaHei UI", "Microsoft YaHei", "simsun", sans-serif;
   margin: 20px 0;
 }
 
@@ -71,8 +71,8 @@ hr {
   border: 1px solid var(--main-color);
 }
 
-strong {
-  font-weight: normal;
+p {
+  color: #666;
 }
 
 #person {
@@ -84,6 +84,10 @@ strong {
   position: absolute;
   top: 20px;
   left: 20px;
+}
+
+.strong {
+  color: var(--main-color);
 }
 
 @layer utilities {
