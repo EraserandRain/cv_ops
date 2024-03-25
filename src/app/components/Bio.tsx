@@ -1,6 +1,7 @@
 import styles from '../style/Bio.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub , faMicroblog } from '@fortawesome/free-brands-svg-icons';
+import { StrongText } from '../TextComponents';
 
 const Bio = () => {
   return (
@@ -16,7 +17,7 @@ const Bio = () => {
       </p>
       <p>
         <FontAwesomeIcon icon={faMicroblog} />【
-        <a href="https://eraserandrain.github.io/">Blog</a>】 ： 基于 <strong>Vuepress</strong> + <strong>Github-pages</strong> 搭建的个人博客
+        <a href="https://eraserandrain.github.io/">Blog</a>】 ： 基于 <StrongText value="Vuepress" />+<StrongText value="Github Pages" />搭建的个人博客
       </p>
     </section>
   );

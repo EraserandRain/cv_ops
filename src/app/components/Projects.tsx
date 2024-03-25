@@ -1,30 +1,5 @@
 import styles from "../style/Projects.module.css"
-import { StrongText } from "../TextComponents"
-
-interface ProjectItemProps {
-  title: string;
-  details: Array<Array<string | { value: string }>>;
-}
-
-const ProjectItem = ({ title, details }: ProjectItemProps) => {
-  return (
-    <li>
-      <header>
-        <h3>{title}</h3>
-      </header>
-      <br />
-      <ul>
-        {details.map((detail, index) => (
-          <li key={index}>
-            <p>{detail.map(item => (
-              typeof item === 'string' ? item : <StrongText value={item.value} />
-            ))}</p>
-          </li>
-        ))}
-      </ul>
-    </li>
-  )
-}
+import { StrongText, UlContent } from "../TextComponents"
 
 const WorkData = [
   {
@@ -107,6 +82,27 @@ const RepoData = [
     ]
   }
 ]
+interface UlContentProps {
+  title: string;
+  details: Array<Array<string | { value: string }>>;
+}
+
+interface ProjectItemProps {
+  title: string;
+  details: Array<Array<string | { value: string }>>;
+}
+
+const ProjectItem: React.FC<ProjectItemProps> = ({ title, details }) => {
+  return (
+    <li>
+      <header>
+        <h3>{title}</h3>
+      </header>
+      <br />
+      <UlContent details={details} />
+    </li>
+  )
+}
 
 const Project = ({ data, title }) => {
   return (

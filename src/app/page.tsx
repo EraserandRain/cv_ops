@@ -4,6 +4,7 @@ import React from "react"
 import Bio from "./components/Bio"
 import Education from "./components/Education"
 import Projects from "./components/Projects"
+import Skils from "./components/Skills"
 
 export default function page() {
   return (
@@ -14,6 +15,7 @@ export default function page() {
       <Bio />
       <Education />
       <Projects />
+      <Skils />
     </article>
   )
 }
