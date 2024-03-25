@@ -12,9 +12,7 @@ export const UlContent = ({ details }: UlContentProps) => {
     <ul>
       {details.map((detail, index) => (
         <li key={index}>
-          <p>{detail.map(item => (
-            typeof item === 'string' ? item : <StrongText value={item.value} />
-          ))}</p>
+          <p>{detail.map(item => typeof item === 'string' ? item : <StrongText value={item.value} />)}</p>
         </li>
       ))}
     </ul>

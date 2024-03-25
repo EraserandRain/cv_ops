@@ -20,12 +20,3 @@
   display: inline-block;
   font-size: 1.3em;
 }
-
-.projects ul {
-  margin-left: 15px;
-}
-
-.projects ul li {
-  margin-left: 20px;
-  list-style: disc;
-}

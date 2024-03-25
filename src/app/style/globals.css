@@ -57,7 +57,13 @@ ul {
   padding: 0;
 }
 
-li {
+ul {
+  margin:  auto 15px;
+}
+
+ul>li {
+  margin: auto 20px;
+  list-style: disc;
   color: #666;
 }
 
