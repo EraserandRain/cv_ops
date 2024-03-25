@@ -82,11 +82,6 @@ const RepoData = [
     ]
   }
 ]
-interface UlContentProps {
-  title: string;
-  details: Array<Array<string | { value: string }>>;
-}
-
 interface ProjectItemProps {
   title: string;
   details: Array<Array<string | { value: string }>>;

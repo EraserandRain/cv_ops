@@ -5,6 +5,7 @@ import Bio from "./components/Bio"
 import Education from "./components/Education"
 import Projects from "./components/Projects"
 import Skils from "./components/Skills"
+import Jobs from "./components/Jobs"
 
 export default function page() {
   return (
@@ -12,10 +13,11 @@ export default function page() {
       <h1 id="person">姜盛乾个人简历</h1>
       <button id="btn">导出PDF</button>
       <hr />
-      <Bio />
-      <Education />
-      <Projects />
-      <Skils />
+      {/* <Bio /> */}
+      {/* <Education /> */}
+      {/* <Projects /> */}
+      {/* <Skils /> */}
+      <Jobs />
     </article>
   )
 }
