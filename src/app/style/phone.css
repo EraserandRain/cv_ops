@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+article {
+    width: auto;
+    height: auto;
+}
+
+.bio img {
+    display: none;
+}
+
+.skills .wrapper {
+    flex-direction: column;
+}
+
+#skills {
+    width: auto;
+}
+
+.jobs header {
+    flex-direction: column;
+}
+
+.jobs header>h3,
+.jobs header>h4,
+.jobs header>span {
+    margin: 0;
+}

@@ -1,0 +1,28 @@
+/* jobs */
+.jobs>ol>li {
+  margin: 12px 0;
+}
+
+.jobs header {
+  display: flex;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.jobs header>h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.jobs header>h4 {
+  margin-left: 1em;
+  font-size: 18px;
+}
+
+.jobs header>span {
+  font-size: 18px;
+  margin-left: auto;
+}
+.jobs ol ul {
+  margin-left: 30px;
+}

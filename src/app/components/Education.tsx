@@ -8,7 +8,7 @@ const Education = () => {
         <span>
           <time>2014年</time>~<time>2018年</time>
         </span>
-        xx大学
+        <span> 巢湖学院</span>
       </p>
     </section>
   );

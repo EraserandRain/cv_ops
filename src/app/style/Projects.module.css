@@ -1,5 +1,3 @@
-
-
 .projects > ol {
   margin-top: 0;
   list-style-position: inside;
@@ -19,4 +17,19 @@
 .projects > ol > li h3 {
   display: inline-block;
   font-size: 1.3em;
+}
+
+/* openSource */
+.openSource header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.openSource>ul>li {
+  margin-bottom: 24px;
+}
+.openSource header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
 }

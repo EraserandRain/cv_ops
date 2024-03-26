@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+.page2 {
+    page-break-before: always;
+    margin-top: 30px;
+}
+
+article #btn {
+    display: none;
+}

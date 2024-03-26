@@ -13,6 +13,6 @@ const nextConfig = {
     reactStrictMode: true,
     // assetPrefix: assetPrefix,
     basePath: basePath,
-    output: 'export'
+    // output: 'export'
 }
 export default nextConfig

@@ -10,12 +10,12 @@ const Bio = () => {
     <section className={styles.bio}>
       <h2>基本概况</h2>
       <Image src="/images/me.jpg" alt="" width={100} height={100} />
-      <p>男 | 25岁 | 运维开发工程师 | 上海</p>
-      <p>手机</p>
-      <p>邮箱</p>
+      <p>男 | 27岁 | 运维开发工程师 | 上海</p>
+      <p>手机：13856185908</p>
+      <p>邮箱：eraserandrain@gmail.com | 1349291258@qq.com</p>
       <p>
         <FontAwesomeIcon icon={faGithub} />【
-        <a href="https://eraserandrain.github.io/">GitHub</a>】 ： 坚持耕耘，坚持输出。
+        <a href="https://github.com/EraserandRain">GitHub</a>】 ： 坚持耕耘，坚持输出。
       </p>
       <p>
         <FontAwesomeIcon icon={faMicroblog} />【
