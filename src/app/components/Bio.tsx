@@ -9,6 +9,7 @@ const Bio = () => {
   return (
     <section className={styles.bio}>
       <h2>基本概况</h2>
+      {/* <Image src="/me.jpeg" alt="" width={100} height={100} className={styles.bioImg}/> */}
       <Image src="/toad.jpg" alt="" width={100} height={100} className={styles.bioImg}/>
       <p>男 | 27岁 | 运维开发工程师 | 上海</p>
       <p>手机：13856185908</p>
