@@ -99,7 +99,12 @@ const ProjectItem = ({ title, details }: ProjectItemProps) => {
   )
 }
 
-const Project = ({ data, title }) => {
+interface ProjectProps {
+  data: ProjectItemProps[]
+  title: string
+}
+
+const Project = ({ data, title }: ProjectProps) => {
   return (
     <section className={styles.projects}>
       <h2>{title}</h2>
@@ -112,7 +117,7 @@ const Project = ({ data, title }) => {
   )
 }
 
-const GithubProject = ({ data, title }) => {
+const GithubProject = ({ data, title }: ProjectProps) => {
   return (
     <Project data={data} title={title} />
   )
