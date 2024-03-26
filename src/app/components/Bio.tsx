@@ -13,6 +13,7 @@ const Bio = () => {
       <p>男 | 27岁 | 运维开发工程师 | 上海</p>
       <p>手机：13856185908</p>
       <p>邮箱：eraserandrain@gmail.com | 1349291258@qq.com</p>
+      <p>教育经历：2014~2018 巢湖学院 统招全日制本科（学信网可查）</p>
       <p>
         <FontAwesomeIcon icon={faGithub} />【
         <a href="https://github.com/EraserandRain">GitHub</a>】 ： 坚持耕耘，坚持输出。

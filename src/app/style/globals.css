@@ -25,7 +25,7 @@ article {
   background: white;
   margin: 0 auto;
   overflow: auto;
-  padding: 1em;
+  padding: 1em 1em 2em;
   position: relative;
 }
 
@@ -75,6 +75,7 @@ a {
 
 hr {
   border: 1px solid var(--main-color);
+  margin: 3em auto;
 }
 
 p {

@@ -1,22 +1,21 @@
-.projects > ol {
+.projects>ol {
   margin-top: 0;
   list-style-position: inside;
   padding: 0;
 }
 
-.projects > ol > li {
+.projects>ol>li {
   margin-bottom: 24px;
 }
 
-.projects > ol > li > header {
+.projects>ol>li>header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
 }
 
-.projects > ol > li h3 {
+.projects>ol>li h3 {
   display: inline-block;
-  font-size: 1.3em;
 }
 
 /* openSource */
@@ -25,9 +24,11 @@
   top: 0;
   right: 0;
 }
+
 .openSource>ul>li {
   margin-bottom: 24px;
 }
+
 .openSource header {
   position: relative;
   display: flex;

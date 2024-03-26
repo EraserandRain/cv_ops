@@ -3,39 +3,43 @@ import { StrongText, UlContent } from "../TextComponents"
 
 const WorkData = [
   {
+    title: 'Build DevOps for Chip Test System',
+    details: [
+      ['负责 SSD Chip Test System 的 Code Workflow 的构建任务。'],
+      [
+        '项目中使用',
+        { value: 'Perl' },
+        '、',
+        { value: 'Visual Studio' },
+        '、',
+        { value: 'Mysql' },
+        '、',
+        { value: 'InstallShield' },
+        '进行 Windows 构建，使用',
+        { value: 'Shell' },
+        '+',
+        { value: 'Python' },
+        '进行 Linux 构建，维护 Daily Build Workflow 并处理相关告警任务。'
+      ], [
+        '使用',
+        { value: 'Jenkins' },
+        '+',
+        { value: 'Buildbot' },
+        '构建 pipeline ，对 C# 、C++ 进行代码检查任务，并将结果通知对应的 commit 开发人员。',
+      ],
+    ],
+  },
+  {
     title: '联通运营商云信安系统运维',
     details: [
       ['参与中国联通地方运营商业务系统运维工作，项目上有上百台左右服务器需要维护。'],
       ['主要负责日常运维监控，基础服务的安装配置等等。'],
-      ['从开始的手工安装系统到后来的工具化部署，个人在运维过程中收获很多。'],
       [
         '项目中使用',
         { value: 'Shell' },
-        '编写应用部署脚本、应用配置脚本、',
-        { value: 'iptables' },
-        '安全脚本等,通过这些个人的',
-        { value: 'Shell' },
-        '编写能力大大提高,也熟悉了',
-        { value: 'grep' },
-        ',',
-        { value: 'sed' },
-        ',',
-        { value: 'awk' },
-        '等命令的使用。',
+        '编写应用部署脚本、应用配置脚本、安全脚本等，自动化处理运维任务。'
       ],
-      ['增强了对问题排除、处理、跟踪的能力，由于需要跟运营商的客户打交道，也提高了个人沟通能力。'],
-    ],
-  },
-  {
-    title: '长信吉数云信安系统实施部署及运维',
-    details: [
-      ['参与长信吉数云信安系统实施、部署及运维工作。'],
-      ['主要负责从服务器上架部署到基础环境的安装配置再到后期上线运维的整个过程。'],
-      [
-        '从中了解了一些网络设备的基本使用，包括交换机、汇聚分流器、防火墙和其他',
-        { value: 'SNMP' },
-        '网络设备等。',
-      ],
+      ['增强了对问题排除、处理、跟踪的能力及个人沟通能力。'],
     ],
   },
   {
@@ -67,17 +71,18 @@ const RepoData = [
     title: 'Envmgr',
     details: [
       [
-        { value: '源码链接' },
+        { value: '源码链接', link: "https://github.com/EraserandRain/envmgr" },
       ], [
-        '常用的环境安装、配置脚本，一条命令执行简化配置步骤。'
+        'Ansible 部署工具，快速配置开发环境。'
       ]
     ]
   }, {
-    title: 'Docker 容器集合',
+    title: '容器集合',
     details: [
       [
-        { value: '源码链接', link: 'https://github.com/EraserandRain/docker-project' },
-        '常用的', { value: 'Docker' }, '容器模板，即开即用。'
+        { value: '源码链接', link: 'https://github.com/EraserandRain/container' },
+      ], [
+        '常用容器模板，即开即用。'
       ]
     ]
   }
@@ -126,8 +131,8 @@ const GithubProject = ({ data, title }: ProjectProps) => {
 const Projects = () => {
   return (
     <>
-      <Project data={WorkData} title="项目经历" />
       <GithubProject data={RepoData} title="开源项目" />
+      <Project data={WorkData} title="项目经历" />
     </>
   )
 }

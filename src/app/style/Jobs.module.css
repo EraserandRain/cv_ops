@@ -3,12 +3,6 @@
   margin: 12px 0;
 }
 
-.jobs header {
-  display: flex;
-  color: #666;
-  margin-bottom: 12px;
-}
-
 .jobs header>h3 {
   font-size: 18px;
   color: #333;

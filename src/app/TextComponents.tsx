@@ -2,14 +2,25 @@ import React from "react"
 
 interface StrongTextProps {
   value: string
+  link?: string
 }
 
-export const StrongText = ({ value }: StrongTextProps) => {
-  return <span className={`strong`}> {value} </span>
-}
+export const StrongText = ({ value, link }: StrongTextProps) => {
+  return (
+    <span className="strong">
+      {link ? ( // Conditional rendering based on 'link' property
+        <a href={link}>
+          【{value}】
+        </a>
+      ) : (
+        ` ${value} `
+      )}
+    </span>
+  );
+};
 
 interface UlContentProps {
-  details: Array<Array<string | { value: string }>>
+  details: Array<Array<string | { value: string, link?: string }>>
 }
 
 export const UlContent = ({ details }: UlContentProps) => {
@@ -22,7 +33,7 @@ export const UlContent = ({ details }: UlContentProps) => {
               typeof item === "string" ? (
                 item
               ) : (
-                <StrongText key={`${outerIndex}-${innerIndex}`} value={item.value} />
+                <StrongText key={`${outerIndex}-${innerIndex}`} value={item.value} link={item.link} />
               )
             )}
           </p>
