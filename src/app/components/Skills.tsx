@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import * as echarts from 'echarts';
 import { UlContent } from '../TextComponents';
+import styles from "../style/Skills.module.css"
 
 const RadarChart = () => {
   const chartRef = useRef(null);
@@ -61,7 +62,7 @@ const skillData = [{
 
 const Skills = () => {
   return (
-    <section>
+    <section className={styles.skills}>
       <h2>职业技能</h2>
       <RadarChart />
       <UlContent details={skillData[0].details} />

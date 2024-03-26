@@ -6,11 +6,23 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Jobs from "./components/Jobs"
 
+const PrintBtn = ({ value }: { value: string }) => {
+  const handlePrint = () => {
+    window.print();
+  };
+
+  return (
+    <button id="btn" onClick={handlePrint}>
+      {value}
+    </button>
+  );
+}
+
 export default function page() {
   return (
     <article>
       <h1 id="person">姜盛乾个人简历</h1>
-      <button id="btn">导出PDF</button>
+      <PrintBtn value="导出PDF" />
       <hr />
       <Bio />
       <Skills />

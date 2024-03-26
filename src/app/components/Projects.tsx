@@ -131,6 +131,7 @@ const GithubProject = ({ data, title }: ProjectProps) => {
 const Projects = () => {
   return (
     <>
+      <div className="subdivision"></div>
       <GithubProject data={RepoData} title="开源项目" />
       <Project data={WorkData} title="项目经历" />
     </>

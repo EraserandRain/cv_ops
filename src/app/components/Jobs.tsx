@@ -56,7 +56,7 @@ const JobItem = ({ data }: JobItemProps) => {
     const { title, position, range, details } = data;
 
     return (
-        <li>
+        <li className='mt-3 mb-5'>
             <header className='flex flex-row items-center text-gray-600 mb-3'>
                 <h3 className='mr-auto'>{title}</h3>
                 <div className='flex items-center justify-between w-1/2'>
@@ -64,7 +64,6 @@ const JobItem = ({ data }: JobItemProps) => {
                     <span>{range.join(' ~ ')}</span>
                 </div>
             </header>
-            <br />
             <UlContent details={details} />
         </li>
     )
@@ -82,8 +81,7 @@ interface JobProps {
 
 const Job = ({ title, data }: JobProps) => {
     return (
-        // <section className={styles.jobs}>
-        <section className='jobs'>
+        <section className={`${styles.jobs} subdivision`}>
             <h2>{title}</h2>
             <ol>
                 {data.map((job, index) => (
