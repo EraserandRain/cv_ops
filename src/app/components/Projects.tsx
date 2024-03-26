@@ -87,7 +87,7 @@ interface ProjectItemProps {
   details: Array<Array<string | { value: string }>>;
 }
 
-const ProjectItem: React.FC<ProjectItemProps> = ({ title, details }) => {
+const ProjectItem = ({ title, details }: ProjectItemProps) => {
   return (
     <li>
       <header>
@@ -115,7 +115,7 @@ const Project = ({ data, title }) => {
 const GithubProject = ({ data, title }) => {
   return (
     <Project data={data} title={title} />
-  );
+  )
 }
 
 const Projects = () => {

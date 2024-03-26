@@ -1,6 +1,10 @@
 import React from "react"
 
-export const StrongText: React.FC<{ value: string }> = ({ value }) => {
+interface StrongTextProps {
+  value: string
+}
+
+export const StrongText = ({ value }: StrongTextProps) => {
   return <span className={`strong`}> {value} </span>
 }
 
@@ -11,31 +15,19 @@ interface UlContentProps {
 export const UlContent = ({ details }: UlContentProps) => {
   return (
     <ul>
-      {details.map((detail, index) => (
-        <li key={index}>
-          <p>{detail.map(item => typeof item === 'string' ? item : <StrongText value={item.value} />)}</p>
+      {details.map((detail, outerIndex) => (
+        <li key={outerIndex}>
+          <p>
+            {detail.map((item, innerIndex) =>
+              typeof item === "string" ? (
+                item
+              ) : (
+                <StrongText key={`${outerIndex}-${innerIndex}`} value={item.value} />
+              )
+            )}
+          </p>
         </li>
       ))}
     </ul>
-  )
-}
-
-// export const UlContent = ({ details }: UlContentProps) => {
-//   return (
-//     <ul>
-//       {details.map((detail, index) => (
-//         <li key={index}>
-//           <p>
-//             {detail.map((item, subIndex) => (
-//               typeof item === 'string' ? (
-//                 <React.Fragment key={subIndex}>{item}</React.Fragment>
-//               ) : (
-//                 <StrongText key={subIndex} value={item.value} />
-//               )
-//             ))}
-//           </p>
-//         </li>
-//       ))}
-//     </ul>
-//   );
-// }
+  );
+};

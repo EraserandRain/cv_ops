@@ -14,7 +14,7 @@ const RadarChart = () => {
           indicator: [
             { name: 'Linux', max: 100 },
             { name: 'Kubernetes', max: 100 },
-            { name: 'Git', max: 100 },
+            { name: 'CICD', max: 100 },
             { name: 'Shell', max: 100 },
             { name: 'Frontend', max: 100 },
             { name: 'Docker', max: 100 },
@@ -46,57 +46,25 @@ const RadarChart = () => {
   return <div ref={chartRef} style={{ width: '100%', height: '400px' }} />;
 }
 
-const skillData = [
-  ['熟悉', { value: 'Linux' }, '及', { value: 'Windows' }, '操作系统,熟练使用', { value: 'Bash' }, '及', { value: 'Powershell' }, '相关的日常命令。',
-  ], [
-    '熟悉 ',
-    { value: 'Shell' },
-    '开发,对',
-    { value: 'Python' },
-    '、',
-    { value: 'Javascript' },
-    '也有一定了解,能够使用自动化脚本解决日常工作的一些问题。',
-  ], [
-    '对虚拟化技术有一定了解,',
-    { value: 'Vmware' },
-    '及',
-    { value: 'Vagrant' },
-    ' 等相关工具的基本使用,包括安装、配置以及应用。',
-  ], [
-    '对',
-    { value: 'Docker' },
-    '容器有一定了解,能够通过编写',
-    { value: 'Dockefile' },
-    ',使用',
-    { value: 'docker-compose' },
-    '编排简单的容器集群。',
-  ], [
-    '熟悉 ',
-    { value: 'Prometheus' },
-    '+',
-    { value: 'Grafana' },
-    '等常用开源监控工具。',
-  ], [
-    '熟悉网络',
-    { value: 'TCP/IP' },
-    '协议,具备对网络异常进行分析解决的能力。',
-  ], [
-    '熟悉 WEB 相关技术,了解',
-    { value: 'Nginx' },
-    '等应用的安装/配置和维护;对',
-    { value: '前端开发' },
-    '也有一定了解。',
-  ], [
-    '具备基本的英语听说读写能力,'
+const skillData = [{
+  details: [
+    ['熟悉', { value: 'Linux' }, '及', { value: 'Windows' }, '操作系统,熟练使用', { value: 'Bash' }, '及', { value: 'Powershell' }, '相关的日常命令。'],
+    ['熟悉 ', { value: 'Shell' }, {value: 'Python'}, {value: 'Perl'},'开发,对', { value: 'Golang' }, '、', { value: 'Javascript' }, '也有一定了解,能够使用自动化脚本解决日常工作的一些问题。'],
+    ['了解虚拟化技术,', '熟悉',{ value: 'Vmware' }, '及', { value: 'Vagrant' }, ' 等相关工具。'],
+    ['对',{value: 'Cloud Native'},'有一定了解', '熟悉' ,{value: 'Kubernetes'}],
+    ['熟悉 ', { value: 'Prometheus' }, '+', { value: 'Grafana' }, '等常用开源监控工具。'],
+    ['熟悉网络', { value: 'TCP/IP' }, '协议,具备对网络异常进行分析解决的能力。'],
+    ['熟悉',{value: 'React'},'等相关技术,对', { value: 'Frontend Devlopment' }, '有一定了解。'],
+    ['具备基本的英语听说读写能力,','能够使用英语进行工作交流 ']
   ]
-]
+}]
 
 const Skills = () => {
   return (
     <section>
       <h2>职业技能</h2>
       <RadarChart />
-      <UlContent details={skillData} />
+      <UlContent details={skillData[0].details} />
     </section>
   )
 }
