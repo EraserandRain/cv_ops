@@ -1,8 +1,8 @@
-import styles from '../style/Bio.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faMicroblog } from '@fortawesome/free-brands-svg-icons';
-import { StrongText } from '../TextComponents';
-import Image from 'next/image';
+import styles from '../style/Bio.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faMicroblog } from '@fortawesome/free-brands-svg-icons'
+import { StrongText } from '../TextComponents'
+import Image from 'next/image'
 
 
 const Bio = () => {
@@ -24,7 +24,7 @@ const Bio = () => {
         <a href="https://eraserandrain.github.io/">Blog</a>】 ： 基于 <StrongText value="Vuepress" />+<StrongText value="Github Pages" />搭建的个人博客
       </p>
     </section>
-  );
-};
+  )
+}
 
 export default Bio

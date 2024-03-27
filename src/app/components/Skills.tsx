@@ -1,14 +1,14 @@
-import React, { useEffect, useRef } from 'react';
-import * as echarts from 'echarts';
-import { UlContent } from '../TextComponents';
+import React, { useEffect, useRef } from 'react'
+import * as echarts from 'echarts'
+import { UlContent } from '../TextComponents'
 import styles from "../style/Skills.module.css"
 
 const RadarChart = () => {
-  const chartRef = useRef(null);
+  const chartRef = useRef(null)
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      const myChart = echarts.init(chartRef.current);
+      const myChart = echarts.init(chartRef.current)
 
       const option = {
         radar: {
@@ -33,18 +33,18 @@ const RadarChart = () => {
             ]
           }
         ]
-      };
+      }
 
-      myChart.setOption(option);
+      myChart.setOption(option)
 
       // Clean up function to destroy the chart when component unmounts
       return () => {
-        myChart.dispose();
-      };
+        myChart.dispose()
+      }
     }
-  }, []);
+  }, [])
 
-  return <div ref={chartRef} style={{ width: '100%', height: '400px' }} />;
+  return <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
 }
 
 const skillData = [{

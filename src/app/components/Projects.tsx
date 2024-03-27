@@ -88,8 +88,8 @@ const RepoData = [
   }
 ]
 interface ProjectItemProps {
-  title: string;
-  details: Array<Array<string | { value: string }>>;
+  title: string
+  details: Array<Array<string | { value: string }>>
 }
 
 const ProjectItem = ({ title, details }: ProjectItemProps) => {

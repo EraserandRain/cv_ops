@@ -49,11 +49,11 @@ interface JobItemProps {
         position: string
         range: string[]
         details: Array<Array<string | { value: string }>>
-    };
+    }
 }
 
 const JobItem = ({ data }: JobItemProps) => {
-    const { title, position, range, details } = data;
+    const { title, position, range, details } = data
 
     return (
         <li className='mt-3 mb-5'>
@@ -89,7 +89,7 @@ const Job = ({ title, data }: JobProps) => {
                 ))}
             </ol>
         </section>
-    );
+    )
 }
 
 const Jobs = () => {

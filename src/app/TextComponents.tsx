@@ -16,8 +16,8 @@ export const StrongText = ({ value, link }: StrongTextProps) => {
         ` ${value} `
       )}
     </span>
-  );
-};
+  )
+}
 
 interface UlContentProps {
   details: Array<Array<string | { value: string, link?: string }>>
@@ -40,5 +40,5 @@ export const UlContent = ({ details }: UlContentProps) => {
         </li>
       ))}
     </ul>
-  );
-};
+  )
+}

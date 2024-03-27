@@ -8,14 +8,14 @@ import Jobs from "./components/Jobs"
 
 const PrintBtn = ({ value }: { value: string }) => {
   const handlePrint = () => {
-    window.print();
-  };
+    window.print()
+  }
 
   return (
     <button id="btn" onClick={handlePrint}>
       {value}
     </button>
-  );
+  )
 }
 
 export default function page() {
