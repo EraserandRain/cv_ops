@@ -1,11 +1,8 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
 import "./style/globals.css"
 import "./style/print.css"
 import "./style/phone.css"
-import React from "react"
-
-const inter = Inter({ subsets: ["latin"] })
+import { ReactNode } from "react"
 
 export const metadata: Metadata = {
   title: "姜盛乾个人简历_运维开发工程师_202403",
@@ -13,10 +10,10 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({ children }:
-  Readonly<{ children: React.ReactNode }>) {
+  Readonly<{ children: ReactNode }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }

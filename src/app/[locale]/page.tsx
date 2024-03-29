@@ -1,10 +1,10 @@
 'use client'
 
 import React from "react"
-import Bio from "./components/Bio"
-import Projects from "./components/Projects"
-import Skills from "./components/Skills"
-import Jobs from "./components/Jobs"
+import Bio from "../components/Bio"
+import Projects from "../components/Projects"
+import Skills from "../components/Skills"
+import Jobs from "../components/Jobs"
 
 const PrintBtn = ({ value }: { value: string }) => {
   const handlePrint = () => {
