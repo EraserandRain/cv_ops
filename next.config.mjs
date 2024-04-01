@@ -1,3 +1,4 @@
+import nextIntl from 'next-intl/plugin'
 /** @type {import('next').NextConfig} */
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false
@@ -13,7 +14,9 @@ const nextConfig = {
     reactStrictMode: true,
     // assetPrefix: assetPrefix,
     basePath: basePath,
-    output: 'export',
+    // output: 'export',
     images: { unoptimized: true }
 }
-export default nextConfig
+
+const withNextIntl = nextIntl("./src/i18n.ts")
+export default withNextIntl(nextConfig)

@@ -1,7 +1,7 @@
 import styles from '../style/Bio.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faMicroblog } from '@fortawesome/free-brands-svg-icons'
-import { StrongText } from '../TextComponents'
+import { StrongText } from '../app/TextComponents'
 import Image from 'next/image'
 
 

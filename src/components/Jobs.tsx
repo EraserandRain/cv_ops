@@ -1,5 +1,5 @@
 import React from 'react'
-import { UlContent } from '../TextComponents'
+import { UlContent } from '../app/TextComponents'
 import styles from "../style/Jobs.module.css"
 
 

@@ -1,19 +1,10 @@
-import type { Metadata } from "next"
-import "./style/globals.css"
-import "./style/print.css"
-import "./style/phone.css"
-import { ReactNode } from "react"
+import { ReactNode } from 'react'
+import './styles/styles.css'
 
-export const metadata: Metadata = {
-  title: "姜盛乾个人简历_运维开发工程师_202403",
-  description: "Personal resume",
+type Props = {
+    children: ReactNode
 }
 
-export default function RootLayout({ children }:
-  Readonly<{ children: ReactNode }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  )
+export default function RootLayout({ children }: Props) {
+    return children
 }

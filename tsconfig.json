@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "src",
     "lib": [
       "dom",
       "dom.iterable",
@@ -33,7 +34,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "build/types/**/*.ts"
-  ],
+, "src/app/[locale]/page.tsx.old"  ],
   "exclude": [
     "node_modules"
   ]

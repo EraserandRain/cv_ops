@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import * as echarts from 'echarts'
-import { UlContent } from '../TextComponents'
+import { UlContent } from '../app/TextComponents'
 import styles from "../style/Skills.module.css"
 
 const RadarChart = () => {
