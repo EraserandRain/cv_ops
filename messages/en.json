@@ -20,7 +20,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, zh {zh 中文} en {🇺🇸 English} other {Unknown}}"
+    "locale": "{locale, select, zh {🇨🇳 中文} en {🇺🇸 English} other {Unknown}}"
   },
   "Navigation": {
     "home": "Home",
