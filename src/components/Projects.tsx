@@ -1,5 +1,5 @@
-import styles from "../style/Projects.module.css"
-import { StrongText, UlContent } from "../app/TextComponents"
+import styles from "app/styles/Projects.module.css"
+import { StrongText, UlContent } from "components/TextComponents"
 
 const WorkData = [
   {

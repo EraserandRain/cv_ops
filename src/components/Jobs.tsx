@@ -1,6 +1,6 @@
 import React from 'react'
-import { UlContent } from '../app/TextComponents'
-import styles from "../style/Jobs.module.css"
+import { UlContent } from 'components/TextComponents'
+import styles from "app/styles/Jobs.module.css"
 
 
 const jobData = [{

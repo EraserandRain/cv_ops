@@ -30,9 +30,11 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
 
   return (
     <html className="h-full" lang={locale}>
-      <body className={clsx(inter.className, 'flex h-full flex-col')}>
-        <Navigation />
-        {children}
+      <body className={clsx(inter.className, 'bg-gray-200 font-sans text-base p-5')}>
+        <article className="w-[21cm] min-h-[29.7cm] bg-white mx-auto overflow-auto p-4 pb-8 relative">
+          <Navigation />
+          {children}
+        </article>
       </body>
     </html>
   )

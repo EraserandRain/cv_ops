@@ -1,7 +1,8 @@
+"use client"
 import React, { useEffect, useRef } from 'react'
 import * as echarts from 'echarts'
-import { UlContent } from '../app/TextComponents'
-import styles from "../style/Skills.module.css"
+import { UlContent } from 'components/TextComponents'
+import styles from "app/styles/Skills.module.css"
 
 const RadarChart = () => {
   const chartRef = useRef(null)

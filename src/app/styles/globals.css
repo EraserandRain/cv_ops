@@ -13,22 +13,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #eee;
-  font-family: "Microsoft YaHei UI", "Microsoft YaHei", "simsun", sans-serif;
-  margin: 20px 0;
-}
-
-article {
-  width: 21cm;
-  min-height: 29.7cm;
-  background: white;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 1em 1em 2em;
-  position: relative;
-}
-
 p {
   margin: 0.3em 0;
   color: #666;
@@ -53,12 +37,8 @@ ol {
   margin: 0;
 }
 ul {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
   margin:  auto 15px;
+  padding: 0;
 }
 
 ul>li {

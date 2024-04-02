@@ -1,7 +1,12 @@
 {
   "IndexPage": {
-    "title": "next-intl Beispiel",
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
+    "title": "Next js",
+    "description": "Personal resume",
+    "data": {
+      "bio": {
+        "value": ""
+      }
+    }
   },
   "PathnamesPage": {
     "title": "Pfadnamen",
@@ -16,7 +21,7 @@
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "姜盛乾个人简历_运维开发工程师_202403"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
