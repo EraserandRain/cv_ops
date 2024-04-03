@@ -27,16 +27,34 @@
     "pathnames": "Pathnames"
   },
   "PageLayout": {
-    "links": {
-      "docs": {
-        "title": "Docs",
-        "description": "Learn more about next-intl in the official docs.",
-        "href": "https://next-intl-docs.vercel.app/"
+    "title": "Personal Resume of Jiang",
+    "PrintBtn": {
+      "value": "Export to PDF"
+    }
+  },
+  "Bio": {
+    "title": "Bio",
+    "bioImg": {
+      "src": "/toad.jpg",
+      "width": "100",
+      "height": "100"
+    },
+    "person": "Gender: Male | Age: 27",
+    "workingInfo": "Role: DevOps Engineer | Location: Shanghai",
+    "tel": "Tel: 13856185908",
+    "email": "Email: eraserandrain@gmail.com",
+    "education": "Education: Bachelor's degree in Chaohu University",
+    "major": "Major: Electronic Engineering",
+    "socialLink": {
+      "github": {
+        "value": "GitHub",
+        "description":"",
+        "href": "https://github.com/EraserandRain"
       },
-      "source": {
-        "title": "Source code",
-        "description": "Browse the source code of this example on GitHub.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
+      "blog": {
+        "value": "Blog",
+        "description":"",
+        "href": "https://eraserandrain.github.io/"
       }
     }
   }

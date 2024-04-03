@@ -36,6 +36,7 @@ ol {
   padding: 0;
   margin: 0;
 }
+
 ul {
   margin:  auto 15px;
   padding: 0;
@@ -53,24 +54,8 @@ a {
   border-bottom: 1px solid;
 }
 
-hr {
-  border: 1px solid var(--main-color);
-  margin: 3em auto;
-}
-
 p {
   color: #666;
-}
-
-#person {
-  width: auto;
-  text-align: center;
-}
-
-#btn {
-  position: absolute;
-  top: 20px;
-  left: 20px;
 }
 
 .strong {

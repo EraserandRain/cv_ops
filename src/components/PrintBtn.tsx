@@ -6,7 +6,7 @@ const PrintBtn = ({ value }: { value: string }) => {
   }
 
   return (
-    <button id="btn" onClick={handlePrint}>
+    <button className="absolute top-20 left-20" onClick={handlePrint}>
       {value}
     </button>
   )

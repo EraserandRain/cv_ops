@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl'
 import { ReactNode } from 'react'
 import PrintBtn from 'components/PrintBtn'
+import clsx from 'clsx'
 
 type Props = {
     children?: ReactNode
@@ -8,15 +9,15 @@ type Props = {
 
 export default function PageLayout({ children }: Props) {
     const t = useTranslations('PageLayout')
+    const styledLine = clsx("border border-solid border-main-color mx-auto my-12")
 
     return (
         <>
-            <p className="max-w-[590px]">{t('description')}</p>
-            <h1 id="person">姜盛乾个人简历</h1>
-            <PrintBtn value="导出PDF" />
-            <hr />
+            <h1 className="w-auto text-center">{t('title')}</h1>
+            <PrintBtn value={t('PrintBtn.value')} />
+            <hr className={styledLine} />
             {children}
-            <hr />
+            <hr className={styledLine} />
         </>
     )
 }

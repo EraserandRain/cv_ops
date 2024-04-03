@@ -1,12 +1,7 @@
 {
   "IndexPage": {
     "title": "Next js",
-    "description": "Personal resume",
-    "data": {
-      "bio": {
-        "value": ""
-      }
-    }
+    "description": "Personal resume"
   },
   "PathnamesPage": {
     "title": "Pfadnamen",
@@ -32,16 +27,34 @@
     "pathnames": "Pfadnamen"
   },
   "PageLayout": {
-    "links": {
-      "docs": {
-        "title": "Dokumentation",
-        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
-        "href": "https://next-intl-docs.vercel.app/"
+    "title": "姜盛乾个人简历",
+    "PrintBtn": {
+      "value": "导出PDF"
+    }
+  },
+  "Bio": {
+    "title": "基本概况",
+    "bioImg": {
+      "src": "/toad.jpg",
+      "width": "100",
+      "height": "100"
+    },
+    "person": "男 | 27岁",
+    "workingInfo": "运维开发工程师 | 上海",
+    "tel": "手机: 13856185908",
+    "email": "邮箱: eraserandrain@gmail.com | 1349291258@qq.com",
+    "education": "教育经历: 2014~2018 巢湖学院 统招全日制本科（学信网可查）",
+    "major": "专业: 电子科学与技术",
+    "socialLink": {
+      "github": {
+        "value": "GitHub",
+        "description": "坚持耕耘，坚持输出。",
+        "href": "https://github.com/EraserandRain"
       },
-      "source": {
-        "title": "Quellcode",
-        "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
+      "blog": {
+        "value": "Blog",
+        "description": "基于 <StrongText value='Vuepress' />+<StrongText value='Github Pages' />搭建的个人博客",
+        "href": "https://eraserandrain.github.io/"
       }
     }
   }

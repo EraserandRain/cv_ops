@@ -1,28 +1,40 @@
-import styles from '../app/styles/Bio.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faMicroblog } from '@fortawesome/free-brands-svg-icons'
 import { StrongText } from 'components/TextComponents'
+import SocialLink from 'components/SocialLink'
 import Image from 'next/image'
-
+import { useTranslations } from 'next-intl'
+import { faGithub, faMicroblog } from '@fortawesome/free-brands-svg-icons'
 
 const Bio = () => {
+  const t = useTranslations('Bio')
+
   return (
-    <section className={styles.bio}>
-      <h2>基本概况</h2>
-      {/* <Image src="/me.jpeg" alt="" width={100} height={100} className={styles.bioImg}/> */}
-      <Image src="/toad.jpg" alt="" width={100} height={100} className={styles.bioImg}/>
-      <p>男 | 27岁 | 运维开发工程师 | 上海</p>
-      <p>手机：13856185908</p>
-      <p>邮箱：eraserandrain@gmail.com | 1349291258@qq.com</p>
-      <p>教育经历：2014~2018 巢湖学院 统招全日制本科（学信网可查）</p>
-      <p>
-        <FontAwesomeIcon icon={faGithub} />【
-        <a href="https://github.com/EraserandRain">GitHub</a>】 ： 坚持耕耘，坚持输出。
-      </p>
-      <p>
-        <FontAwesomeIcon icon={faMicroblog} />【
-        <a href="https://eraserandrain.github.io/">Blog</a>】 ： 基于 <StrongText value="Vuepress" />+<StrongText value="Github Pages" />搭建的个人博客
-      </p>
+    <section className="relative">
+      <h2>{t('title')}</h2>
+      <Image
+        className="absolute top-0 right-0"
+        src={t('bioImg.src')}
+        alt=""
+        width={parseInt(t('bioImg.width'), 10)}
+        height={parseInt(t('bioImg.height'), 10)}
+      />
+      <p>{t('person')}</p>
+      <p>{t('workingInfo')}</p>
+      <p>{t('tel')}</p>
+      <p>{t('email')}</p>
+      <p>{t('education')}</p>
+      <p>{t('major')}</p>
+      <SocialLink
+        text={t('socialLink.github.value')}
+        desc={t('socialLink.github.description')}
+        url={t('socialLink.github.href')}
+        icon={faGithub}
+      />
+      <SocialLink
+        text={t('socialLink.blog.value')}
+        desc={t('socialLink.blog.description')}
+        url={t('socialLink.blog.href')}
+        icon={faMicroblog}
+      />
     </section>
   )
 }
