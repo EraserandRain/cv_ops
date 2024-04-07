@@ -2,7 +2,7 @@ import { StrongText } from 'components/TextComponents'
 import SocialLink from 'components/SocialLink'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
-import { faGithub, faMicroblog } from '@fortawesome/free-brands-svg-icons'
+import { FaBlog, FaGithub } from 'react-icons/fa'
 
 const Bio = () => {
   const t = useTranslations('Bio')
@@ -27,13 +27,13 @@ const Bio = () => {
         text={t('socialLink.github.value')}
         desc={t('socialLink.github.description')}
         url={t('socialLink.github.href')}
-        icon={faGithub}
+        icon={FaGithub}
       />
       <SocialLink
         text={t('socialLink.blog.value')}
         desc={t('socialLink.blog.description')}
         url={t('socialLink.blog.href')}
-        icon={faMicroblog}
+        icon={FaBlog}
       />
     </section>
   )

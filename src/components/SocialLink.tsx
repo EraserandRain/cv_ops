@@ -1,22 +1,19 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { IconProp } from '@fortawesome/fontawesome-svg-core'
+import { IconType } from 'react-icons'
 
 interface SocialLinkProps {
-    text: string
-    desc: string
-    url: string
-    icon: IconProp
+  text: string
+  desc: string
+  url: string
+  icon: IconType
 }
 
-const SocialLink = ({text, desc, url, icon}: SocialLinkProps) => {
-    return (
-        <p>
-            <FontAwesomeIcon icon={icon} />【
-            <a href={url}>
-                {text}
-            </a>】 : {desc}
-        </p>
-    )
+const SocialLink = ({ text, desc, url, icon: Icon }: SocialLinkProps) => {
+  return (
+    <p>
+      <Icon />
+      <a href={url}>{text}</a> : {desc}
+    </p>
+  )
 }
 
 export default SocialLink
