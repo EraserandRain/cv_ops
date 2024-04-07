@@ -9,9 +9,13 @@ interface SocialLinkProps {
 
 const SocialLink = ({ text, desc, url, icon: Icon }: SocialLinkProps) => {
   return (
-    <p>
-      <Icon />
-      <a href={url}>{text}</a> : {desc}
+    <p className="flex items-center">
+      <span>
+        <Icon className='mt-2' />
+      </span>
+      <span>
+        【<a href={url}>{text}</a>】 : {desc}
+      </span>
     </p>
   )
 }
