@@ -6,6 +6,12 @@ import { FaBlog, FaGithub } from 'react-icons/fa'
 
 const Bio = () => {
   const t = useTranslations('Bio')
+  const blogDescription = (
+    <p>
+      {t('socialLink.blog.description.emphasized').length}
+    </p>
+  )
+console.log(t('socialLink.blog.description.emphasized').length)
 
   return (
     <section className="relative">
@@ -31,7 +37,7 @@ const Bio = () => {
       />
       <SocialLink
         text={t('socialLink.blog.value')}
-        desc={t('socialLink.blog.description')}
+        desc={t('socialLink.github.description')}
         url={t('socialLink.blog.href')}
         icon={FaBlog}
       />

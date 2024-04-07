@@ -1,0 +1,9 @@
+      {
+        t('socialLink.blog.description.text')
+          .split('')
+          .map((char, index) => {
+            const isEmphasized = t('socialLink.blog.description.emphasized')
+              .some(({ start, end }) => index >= start && index < end);
+            return isEmphasized ? <StrongText key={index} value={char} /> : char;
+          })
+      }

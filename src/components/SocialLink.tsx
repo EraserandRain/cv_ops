@@ -2,7 +2,7 @@ import { IconType } from 'react-icons'
 
 interface SocialLinkProps {
   text: string
-  desc: string
+  desc: string | JSX.Element
   url: string
   icon: IconType
 }
