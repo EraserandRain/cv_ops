@@ -1,4 +1,8 @@
 import nextIntl from 'next-intl/plugin'
+import createNextIntlPlugin from 'next-intl/plugin'
+
+const withNextIntl = createNextIntlPlugin()
+
 /** @type {import('next').NextConfig} */
 
 const isGithubActions = process.env.GITHUB_ACTIONS || false
@@ -18,5 +22,4 @@ const nextConfig = {
     images: { unoptimized: true }
 }
 
-const withNextIntl = nextIntl("./src/i18n.ts")
 export default withNextIntl(nextConfig)

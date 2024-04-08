@@ -1,0 +1,76 @@
+{
+  "IndexPage": {
+    "title": "Next js",
+    "description": "Personal resume"
+  },
+  "PathnamesPage": {
+    "title": "Pfadnamen",
+    "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>"
+  },
+  "Error": {
+    "title": "Etwas ist schief gelaufen!",
+    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Seite nicht gefunden",
+    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+  },
+  "LocaleLayout": {
+    "title": "姜盛乾个人简历_运维开发工程师_202403"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, zh {🇨🇳 中文} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Start",
+    "pathnames": "Pfadnamen"
+  },
+  "PageLayout": {
+    "title": "姜盛乾个人简历",
+    "PrintBtn": {
+      "value": "导出PDF"
+    }
+  },
+  "Bio": {
+    "title": "基本概况",
+    "bioImg": {
+      "src": "/toad.jpg",
+      "width": "100",
+      "height": "100"
+    },
+    "info": {
+      "person": "男 | 27岁",
+      "workingInfo": "运维开发工程师 | 上海",
+      "tel": "手机: 13856185908",
+      "email": "邮箱: eraserandrain@gmail.com | 1349291258@qq.com",
+      "education": "教育经历: 2014~2018 巢湖学院 统招全日制本科（学信网可查）",
+      "major": "专业: 电子科学与技术"
+    },
+    "socialLink": {
+      "github": {
+        "value": "GitHub",
+        "description": "坚持耕耘，坚持输出。",
+        "href": "https://github.com/EraserandRain"
+      },
+      "blog": {
+        "value": "Blog",
+        "description": {
+          "text": "A personal blog powered by Vuepress and GitHub Pages",
+          "emphasized": {
+            "part1": {
+              "value": "Vuepress"
+            },
+            "part2": {
+              "value": "GitHub Pages"
+            }
+          }
+        }
+      },
+      "href": "https://eraserandrain.github.io/"
+    }
+  },
+  "Skills": {
+    "title": "职业技能"
+  }
+}
