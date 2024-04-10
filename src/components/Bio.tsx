@@ -17,12 +17,12 @@ const Bio = () => {
         width={parseInt(t('bioImg.width'), 10)}
         height={parseInt(t('bioImg.height'), 10)}
       />
-      <p>{t('person')}</p>
-      <p>{t('workingInfo')}</p>
-      <p>{t('tel')}</p>
-      <p>{t('email')}</p>
-      <p>{t('education')}</p>
-      <p>{t('major')}</p>
+      <p>{t('info.person')}</p>
+      <p>{t('info.workingInfo')}</p>
+      <p>{t('info.tel')}</p>
+      <p>{t('info.email')}</p>
+      <p>{t('info.education')}</p>
+      <p>{t('info.major')}</p>
       <SocialLink
         text={t('socialLink.github.value')}
         desc={t('socialLink.github.description')}
@@ -35,7 +35,6 @@ const Bio = () => {
         url={t('socialLink.blog.href')}
         icon={FaBlog}
       />
-      <p>{t('info.person')}</p>
     </section>
   )
 }
