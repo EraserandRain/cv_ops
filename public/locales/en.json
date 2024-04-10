@@ -36,7 +36,9 @@
       "height": "100"
     },
     "info": {
-      "person": "Gender: Male | Age: 27",
+      "person": {
+        "value": "Gender: Male | Age: 27"
+      },
       "workingInfo": "Role: DevOps Engineer | Location: Shanghai",
       "tel": "Tel: 13856185908",
       "email": "Email: eraserandrain@gmail.com",
