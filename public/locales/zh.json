@@ -56,18 +56,14 @@
       "blog": {
         "value": "Blog",
         "description": {
-          "text": "A personal blog powered by Vuepress and GitHub Pages",
+          "text": "基于 Vuepress + GitHub Pages 的个人博客",
           "emphasized": {
-            "part1": {
-              "value": "Vuepress"
-            },
-            "part2": {
-              "value": "GitHub Pages"
-            }
+            "part1": "Vuepress",
+            "part2": "GitHub Pages"
           }
-        }
-      },
-      "href": "https://eraserandrain.github.io/"
+        },
+        "href": "https://eraserandrain.github.io/"
+      }
     }
   },
   "Skills": {

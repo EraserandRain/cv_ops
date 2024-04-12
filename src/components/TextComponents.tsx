@@ -1,21 +1,21 @@
 import React from "react"
 
 interface StrongTextProps {
-  value: string
-  link?: string
+  mainStr: string
+  subStrs?: string[]
 }
+export const StrongText = ({ mainStr, subStrs }: StrongTextProps) => {
+  if (!subStrs || subStrs.length === 0) {
+    return <p>{mainStr}</p>
+  }
 
-export const StrongText = ({ value, link }: StrongTextProps) => {
+  subStrs.forEach(subStr => {
+    const regex = new RegExp(subStr, 'g');
+    mainStr = mainStr.replace(regex, `<span class='strong'>$&</span>`)
+  })
+
   return (
-    <span className="strong">
-      {link ? ( // Conditional rendering based on 'link' property
-        <a href={link}>
-          【{value}】
-        </a>
-      ) : (
-        ` ${value} `
-      )}
-    </span>
+    <span dangerouslySetInnerHTML={{ __html: mainStr }} />
   )
 }
 

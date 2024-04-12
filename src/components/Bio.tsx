@@ -1,11 +1,20 @@
 import { StrongText } from 'components/TextComponents'
 import SocialLink from 'components/SocialLink'
 import Image from 'next/image'
-import { useTranslations } from 'next-intl'
+import { MessageKeys, useTranslations } from 'next-intl'
 import { FaBlog, FaGithub } from 'react-icons/fa'
+import React from 'react'
 
 const Bio = () => {
   const t = useTranslations('Bio')
+  const infoItems = [
+    'info.person',
+    'info.workingInfo',
+    'info.tel',
+    'info.email',
+    'info.education',
+    'info.major'
+  ]
 
   return (
     <section className="relative">
@@ -17,12 +26,9 @@ const Bio = () => {
         width={parseInt(t('bioImg.width'), 10)}
         height={parseInt(t('bioImg.height'), 10)}
       />
-      <p>{t('info.person')}</p>
-      <p>{t('info.workingInfo')}</p>
-      <p>{t('info.tel')}</p>
-      <p>{t('info.email')}</p>
-      <p>{t('info.education')}</p>
-      <p>{t('info.major')}</p>
+      <>
+        {infoItems.map((item: any) => (<p key={item}>{t(item)}</p>))}
+      </>
       <SocialLink
         text={t('socialLink.github.value')}
         desc={t('socialLink.github.description')}
@@ -31,7 +37,13 @@ const Bio = () => {
       />
       <SocialLink
         text={t('socialLink.blog.value')}
-        desc={t('socialLink.github.description')}
+        desc={{
+          mainStr: t('socialLink.blog.description.text'),
+          subStrs: [
+            t('socialLink.blog.description.emphasized.part1'),
+            t('socialLink.blog.description.emphasized.part2')
+          ]
+        }}
         url={t('socialLink.blog.href')}
         icon={FaBlog}
       />
