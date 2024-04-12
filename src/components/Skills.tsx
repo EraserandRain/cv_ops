@@ -1,52 +1,53 @@
-"use client"
-import React, { useEffect, useRef } from 'react'
-import * as echarts from 'echarts'
+'use client'
+import React from 'react'
 import { UlContent } from 'components/TextComponents'
 import styles from "app/styles/Skills.module.css"
-
-const RadarChart = () => {
-  const chartRef = useRef(null)
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const myChart = echarts.init(chartRef.current)
-
-      const option = {
-        radar: {
-          indicator: [
-            { name: 'Linux', max: 100 },
-            { name: 'Kubernetes', max: 100 },
-            { name: 'CICD', max: 100 },
-            { name: 'Shell', max: 100 },
-            { name: 'Frontend', max: 100 },
-            { name: 'Docker', max: 100 },
-          ]
+import { Pie } from '@ant-design/plots';
+const data = [
+  { type: 'Linux', value: 90 },
+  { type: 'Kubernetes', value: 70 },
+  { type: 'CICD', value: 80 },
+  { type: 'Shell', value: 80 },
+  { type: 'Frontend', value: 80 },
+  { type: 'Docker', value: 70 },
+]
+const DemoPie = () => {
+  const config = {
+    data: data,
+    angleField: 'value',
+    colorField: 'type',
+    paddingRight: 80,
+    innerRadius: 0.6,
+    label: {
+      text: 'value',
+      style: {
+        fontWeight: 'bold',
+      },
+    },
+    legend: {
+      color: {
+        title: false,
+        position: 'right',
+        rowPadding: 5,
+      },
+    },
+    annotations: [
+      {
+        type: 'text',
+        style: {
+          text: 'DevOps Skills',
+          x: '50%',
+          y: '50%',
+          textAlign: 'center',
+          fontSize: 40,
+          fontStyle: 'bold',
         },
-        series: [
-          {
-            name: 'Budget vs spending',
-            type: 'radar',
-            data: [
-              {
-                value: [90, 70, 80, 80, 80, 70],
-                name: '技能雷达'
-              }
-            ]
-          }
-        ]
-      }
-
-      myChart.setOption(option)
-
-      // Clean up function to destroy the chart when component unmounts
-      return () => {
-        myChart.dispose()
-      }
-    }
-  }, [])
-
-  return <div ref={chartRef} style={{ width: '100%', height: '400px' }} />
+      },
+    ],
+  };
+  return <Pie {...config} />;
 }
+
 
 const skillData = [{
   details: [
@@ -65,7 +66,7 @@ const Skills = () => {
   return (
     <section className={styles.skills}>
       <h2>职业技能</h2>
-      <RadarChart />
+      <DemoPie />
       <UlContent details={skillData[0].details} />
     </section>
   )
