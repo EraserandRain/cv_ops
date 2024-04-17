@@ -1,19 +1,15 @@
-import { StrongText } from 'components/TextComponents'
 import SocialLink from 'components/SocialLink'
 import Image from 'next/image'
-import { MessageKeys, useTranslations } from 'next-intl'
+import { useTranslations } from 'next-intl'
 import { FaBlog, FaGithub } from 'react-icons/fa'
 import React from 'react'
 
 const Bio = () => {
   const t = useTranslations('Bio')
   const infoItems = [
-    'info.person',
-    'info.workingInfo',
-    'info.tel',
-    'info.email',
-    'info.education',
-    'info.major'
+    'info.role',
+    'info.contact',
+    'info.education'
   ]
 
   return (

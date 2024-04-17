@@ -6,9 +6,7 @@ const Skills = () => {
   const t = useTranslations('Skills')
   const radarT = useTranslations('Skills.radar')
   const detailsT = useTranslations('Skills.details')
-  const [RadarNum, detailsNum] = [6, 8]
-  const RadarKeys = Array.from({ length: RadarNum }, (_, i) => `part${i + 1}` as const)
-  const DetailsKeys = Array.from({ length: detailsNum }, (_, i) => `part${i + 1}` as const)
+  const RadarKeys = Array.from({ length: 6 }, (_, i) => `part${i + 1}` as const)
   const details = [
     {
       mainStr: detailsT('part1.text'),

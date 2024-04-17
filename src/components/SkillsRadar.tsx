@@ -11,7 +11,7 @@ export const SkillsRadar = ({ data }: { data: skill[] }) => {
         <div className='flex justify-center'>
             <RadarChart
                 width={600}
-                height={400}
+                height={350}
                 cx="50%"
                 cy="50%"
                 outerRadius={120}

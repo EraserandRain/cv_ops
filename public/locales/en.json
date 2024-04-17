@@ -36,12 +36,9 @@
       "height": "100"
     },
     "info": {
-      "person": "Gender: Male | Age: 27",
-      "workingInfo": "Role: DevOps Engineer | Location: Shanghai",
-      "tel": "Tel: 13856185908",
-      "email": "Email: eraserandrain@gmail.com",
-      "education": "Education: Bachelor's degree in Chaohu University",
-      "major": "Major: Electronic Engineering"
+      "role": "Gender: Male | Age: 27 | Role: DevOps Engineer | Location: Shanghai",
+      "contact": "Tel: 13856185908 | Email: eraserandrain@gmail.com",
+      "education": "Education: Bachelor's degree in Electronic Engineering from Chaohu University."
     },
     "socialLink": {
       "github": {
@@ -150,6 +147,97 @@
         "emphasized": {
           "item1": "React",
           "item2": "Frontend"
+        }
+      }
+    }
+  },
+  "Projects": {
+    "Github": {
+      "title": "Github Repo",
+      "details": {
+        "part1": {
+          "title": "Envmgr",
+          "link": "https://github.com/EraserandRain/envmgr",
+          "description": {
+            "para1":{
+              "text": "Ansible deployment tool for quickly configuring development environments.",
+              "emphasized": {
+                "item1": "Ansible"
+              }
+            }
+          }
+        },
+        "part2": {
+          "title": "Container Collection",
+          "link": "https://github.com/EraserandRain/container",
+          "description": {
+            "para1":{
+              "text": "A collection of container definitions for quickly configuring containers."
+            }
+          }
+        }
+      }
+    },
+    "Work": {
+      "title": "Project Experience",
+      "details": {
+        "part1": {
+          "title": "Build DevOps for Chip Test System",
+          "description": {
+            "para1": {
+              "text": "Responsible for building the Code Workflow for the SSD Chip Test System."
+            },
+            "para2": {
+              "text": "Used Perl + Visual Studio + Mysql + InstallShield for Windows build, and Shell + Python for Linux build, maintained the Daily Build Workflow and handled related alerts.",
+              "emphasized": {
+                "item1": "Perl",
+                "item2": "Shell",
+                "item3": "Python"
+              }
+            },
+            "para3": {
+              "text": "Built a Jenkins + Buildbot pipeline to perform code inspection tasks for C# and C++, and notify the corresponding commit developers of the results.",
+              "emphasized": {
+                "item1": "Jenkins",
+                "item2": "Buildbot"
+              }
+            }
+          }
+        },
+        "part2": {
+          "title": "Ops work for the Telecom Operator Cloud Security System",
+          "description": {
+            "para1": {
+              "text": "Participated in the daily maintenance of the business system of a local telecom operator, which involved hundreds of servers."
+            },
+            "para2": {
+              "text": "Mainly responsible for daily maintenance monitoring, installation and configuration of basic services, to ensure system stability and efficient management."
+            },
+            "para3": {
+              "text": "Used Shell scripts to automate maintenance tasks, significantly improving problem identification, resolution and tracking capabilities, and improving maintenance efficiency.",
+              "emphasized": {
+                "item1": "Shell"
+              }
+            }
+          }
+        },
+        "part3": {
+          "title": "Ops work of the Security System for Shanghai UnionPay",
+          "description": {
+            "para1": {
+              "text": "Responsible for overseeing the installation, deployment, and centralized management of all network devices, followed by ongoing monitoring, tracking, optimization, and maintenance tasks."
+            },
+            "para2": {
+              "text": "The project used Prometheus + Grafana as the monitoring tool, and node-exporter, alertmanager and other modules to collect the running status of servers, SNMP network devices and related services, and send alerts to DingTalk via webhook.",
+              "emphasized": {
+                "item1": "Prometheus",
+                "item2": "Grafana",
+                "item3": "node-exporter",
+                "item4": "alertmanager",
+                "item5": "webhook"
+              }
+            }
+          }
         }
       }
     }

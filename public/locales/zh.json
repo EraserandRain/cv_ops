@@ -3,10 +3,6 @@
     "title": "Next js",
     "description": "Personal resume"
   },
-  "PathnamesPage": {
-    "title": "Pfadnamen",
-    "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>"
-  },
   "Error": {
     "title": "Etwas ist schief gelaufen!",
     "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
@@ -40,12 +36,10 @@
       "height": "100"
     },
     "info": {
-      "person": "男 | 27岁",
-      "workingInfo": "运维开发工程师 | 上海",
-      "tel": "手机: 13856185908",
-      "email": "邮箱: eraserandrain@gmail.com | 1349291258@qq.com",
-      "education": "教育经历: 2014~2018 巢湖学院 统招全日制本科（学信网可查）",
-      "major": "专业: 电子科学与技术"
+      "role": "基本信息：男 | 27岁 | 运维开发工程师 | 上海",
+      "contact": "手机: 13856185908 | 邮箱: eraserandrain@gmail.com , 1349291258@qq.com",
+      "email": "",
+      "education": "教育经历: 2014~2018 巢湖学院 电子科学与技术 统招全日制本科（学信网可查）"
     },
     "socialLink": {
       "github": {
@@ -154,6 +148,97 @@
         "emphasized": {
           "item1": "React",
           "item2": "Frontend"
+        }
+      }
+    }
+  },
+  "Projects": {
+    "Github": {
+      "title": "开源项目",
+      "details": {
+        "part1": {
+          "title": "Envmgr",
+          "link": "https://github.com/EraserandRain/envmgr",
+          "description": {
+            "para1": {
+              "text": "Ansible 部署工具，快速配置开发环境。",
+              "emphasized": {
+                "item1": "Ansible"
+              }
+            }
+          }
+        },
+        "part2": {
+          "title": "容器集合",
+          "link": "https://github.com/EraserandRain/container",
+          "description": {
+            "para1": {
+              "text": "常用容器模板，即开即用。"
+            }
+          }
+        }
+      }
+    },
+    "Work": {
+      "title": "工作经历",
+      "details": {
+        "part1": {
+          "title": "Build DevOps for Chip Test System",
+          "description": {
+            "para1": {
+              "text": "负责 SSD Chip Test System 的 Code Workflow 的构建任务。"
+            },
+            "para2": {
+              "text": "项目中使用 Perl + Visual Studio + Mysql + InstallShield 进行 Windows 构建，使用 Shell + Python 进行 Linux 构建，维护 Daily Build Workflow 并处理相关告警任务。",
+              "emphasized": {
+                "item1": "Perl",
+                "item2": "Shell",
+                "item3": "Python"
+              }
+            },
+            "para3": {
+              "text": "使用 Jenkins + Buildbot 构建 pipeline ，对 C# 、C++ 进行代码检查任务，并将结果通知对应的 commit 开发人员。",
+              "emphasized": {
+                "item1": "Jenkins",
+                "item2": "Buildbot"
+              }
+            }
+          }
+        },
+        "part2": {
+          "title": "联通运营商云信安系统运维",
+          "description": {
+            "para1": {
+              "text": "参与联通地方运营商业务系统运维工作，项目中涉及上百台服务器。"
+            },
+            "para2": {
+              "text": "主要负责日常运维监控，基础服务的安装配置等，确保系统稳定运行与高效管理。"
+            },
+            "para3": {
+              "text": "使用 Shell 脚本实现运维任务的自动化，显著提升问题排查、解决与跟踪能力，提升运维效率。",
+              "emphasized": {
+                "item1": "Shell"
+              }
+            }
+          }
+        },
+        "part3": {
+          "title": "上海银联信安系统运维",
+          "description": {
+            "para1": {
+              "text": "负责从安装部署，到配置统一管理所有网络设备，再到后续跟踪监控调优等运维工作。"
+            },
+            "para2": {
+              "text": "项目使用 Prometheus + Grafana 作为监控工具，使用 node-exporter , alertmanager 等模块搜集服务器、 SNMP 网络设备及相关服务运行状态并通过 webhook 告警到钉钉。",
+              "emphasized": {
+                "item1": "Prometheus",
+                "item2": "Grafana",
+                "item3": "node-exporter",
+                "item4": "alertmanager",
+                "item5": "webhook"
+              }
+            }
+          }
         }
       }
     }
