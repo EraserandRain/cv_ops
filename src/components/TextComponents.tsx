@@ -1,8 +1,8 @@
-import React from "react"
 interface StrongTextProps {
   mainStr: string
   subStrs?: string[]
 }
+
 export const StrongText = ({ mainStr, subStrs }: StrongTextProps) => {
   if (!subStrs || subStrs.length === 0) {
     return <p>{mainStr}</p>
@@ -28,30 +28,6 @@ export const StrongTextList = ({ texts }: StrongTextListProps) => {
       {texts.map((text, index) => (
         <li key={index}>
           <StrongText mainStr={text.mainStr} subStrs={text.subStrs} />
-        </li>
-      ))}
-    </ul>
-  )
-}
-
-interface UlContentProps {
-  details: Array<Array<string | { value: string, link?: string }>>
-}
-
-export const UlContent = ({ details }: UlContentProps) => {
-  return (
-    <ul>
-      {details.map((detail, outerIndex) => (
-        <li key={outerIndex}>
-          <p>
-            {detail.map((item, innerIndex) =>
-              typeof item === "string" ? (
-                item
-              ) : (
-                <StrongText key={`${outerIndex}-${innerIndex}`} value={item.value} link={item.link} />
-              )
-            )}
-          </p>
         </li>
       ))}
     </ul>

@@ -58,8 +58,8 @@
         "description": {
           "text": "基于 Vuepress + GitHub Pages 的个人博客",
           "emphasized": {
-            "part1": "Vuepress",
-            "part2": "GitHub Pages"
+            "item1": "Vuepress",
+            "item2": "GitHub Pages"
           }
         },
         "href": "https://eraserandrain.github.io/"
@@ -71,91 +71,89 @@
     "radar": {
       "part1": {
         "subject": "Linux",
-        "value": 90
+        "value": "90"
       },
       "part2": {
         "subject": "Kubernetes",
-        "value": 70
+        "value": "70"
       },
       "part3": {
         "subject": "CICD",
-        "value": 80
+        "value": "80"
       },
       "part4": {
         "subject": "Shell",
-        "value": 80
+        "value": "80"
       },
       "part5": {
         "subject": "Frontend",
-        "value": 80
+        "value": "80"
       },
       "part6": {
         "subject": "Docker",
-        "value": 70
+        "value": "70"
       }
     },
     "details": {
       "part1": {
         "text": "熟悉 Linux 及 Windows 操作系统，熟练使用 Bash 及 Powershell 相关的日常命令。",
         "emphasized": {
-          "part1": "Linux",
-          "part2": "Windows",
-          "part3": "Bash",
-          "part4": "Powershell"
+          "item1": "Bash",
+          "item2": "Powershell"
         }
       },
       "part2": {
         "text": "熟悉 Shell 、Python 、Perl 语言，对 Golang 、JavaScript 有一定了解，能够使用自动化脚本解决日常工作中的问题。",
         "emphasized": {
-          "part1": "Shell",
-          "part2": "Python",
-          "part3": "Perl",
-          "part4": "Golang",
-          "part5": "JavaScript"
+          "item1": "Shell",
+          "item2": "Python",
+          "item3": "Perl",
+          "item4": "Golang",
+          "item5": "JavaScript"
         }
       },
       "part3": {
         "text": "对 Cloud Native 有一定了解，熟悉 Kubernetes 、Docker 、Helm 等工具。",
         "emphasized": {
-          "part1": "Kubernetes",
-          "part2": "Docker",
-          "part3": "Helm"
+          "item1": "Cloud Native",
+          "item2": "Kubernetes",
+          "item3": "Docker",
+          "item4": "Helm"
         }
       },
       "part4": {
         "text": "了解虚拟化技术，熟悉 Vmware、VirtualBox、Vagrant 等相关工具。",
         "emphasized": {
-          "part1": "VirtualBox",
-          "part2": "Vagrant",
-          "part3": "Vmware"
+          "item1": "VirtualBox",
+          "item2": "Vagrant",
+          "item3": "Vmware"
         }
       },
       "part5": {
         "text": "熟练使用 Git、GitHub 等版本控制工具，熟练使用 Jenkins、GitHub Actions 等 CI/CD 工具。",
         "emphasized": {
-          "part1": "Git",
-          "part2": "GitHub",
-          "part4": "Jenkins",
-          "part5": "GitHub Actions"
+          "item1": "Jenkins",
+          "item2": "GitHub Actions"
         }
       },
       "part6": {
         "text": "熟悉 Prometheus 、Grafana 等监控工具。",
         "emphasized": {
-          "part1": "Prometheus",
-          "part2": "Grafana"
+          "item1": "Prometheus",
+          "item2": "Grafana"
         }
       },
       "part7": {
         "text": "熟悉网络 TCP/IP 协议，具备对网络异常进行分析解决的能力。",
         "emphasized": {
-          "part1": "TCP/IP"
+          "item1": "TCP/IP"
         }
       },
       "part8": {
         "text": "熟悉 React 等相关技术，对 Frontend Development 有一定了解。",
         "emphasized": {
-          "part1": "React"
+          "item1": "React",
+          "item2": "Frontend"
         }
       }
     }

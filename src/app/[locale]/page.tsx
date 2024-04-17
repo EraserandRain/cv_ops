@@ -22,8 +22,8 @@ export default function IndexPage({ params: { locale } }: Props) {
       <PageLayout>
         <Bio />
         <Skills />
-        <Projects />
-        <Jobs />
+        {/* <Projects /> */}
+        {/* <Jobs /> */}
       </PageLayout>
     </>
   )

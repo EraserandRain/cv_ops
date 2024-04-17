@@ -40,8 +40,8 @@ const Bio = () => {
         desc={{
           mainStr: t('socialLink.blog.description.text'),
           subStrs: [
-            t('socialLink.blog.description.emphasized.part1'),
-            t('socialLink.blog.description.emphasized.part2')
+            t('socialLink.blog.description.emphasized.item1'),
+            t('socialLink.blog.description.emphasized.item2')
           ]
         }}
         url={t('socialLink.blog.href')}

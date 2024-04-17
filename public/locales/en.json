@@ -54,8 +54,8 @@
         "description": {
           "text": "A personal blog powered by Vuepress and GitHub Pages",
           "emphasized": {
-            "part1": "Vuepress",
-            "part2": "GitHub Pages"
+            "item1": "Vuepress",
+            "item2": "GitHub Pages"
           }
         },
         "href": "https://eraserandrain.github.io/"
@@ -67,91 +67,89 @@
     "radar": {
       "part1": {
         "subject": "Linux",
-        "value": 90
+        "value": "90"
       },
       "part2": {
         "subject": "Kubernetes",
-        "value": 70
+        "value": "70"
       },
       "part3": {
         "subject": "CICD",
-        "value": 80
+        "value": "80"
       },
       "part4": {
         "subject": "Shell",
-        "value": 80
+        "value": "80"
       },
       "part5": {
         "subject": "Frontend",
-        "value": 80
+        "value": "80"
       },
       "part6": {
         "subject": "Docker",
-        "value": 70
+        "value": "70"
       }
     },
     "details": {
       "part1": {
         "text": "Proficient in Linux and Windows operating systems, and comfortable using Bash and Powershell for daily tasks.",
         "emphasized": {
-          "part1": "Linux",
-          "part2": "Windows",
-          "part3": "Bash",
-          "part4": "Powershell"
+          "item1": "Bash",
+          "item2": "Powershell"
         }
       },
       "part2": {
         "text": "Familiar with Shell, Python, and Perl languages, with some understanding of Golang and JavaScript. Able to use automation scripts to solve daily work problems.",
         "emphasized": {
-          "part1": "Shell",
-          "part2": "Python",
-          "part3": "Perl",
-          "part4": "Golang",
-          "part5": "JavaScript"
+          "item1": "Shell",
+          "item2": "Python",
+          "item3": "Perl",
+          "item4": "Golang",
+          "item5": "JavaScript"
         }
       },
       "part3": {
         "text": "Possesses some knowledge of Cloud Native technology, and is proficient in Kubernetes, Docker, and Helm tools.",
         "emphasized": {
-          "part1": "Kubernetes",
-          "part2": "Docker",
-          "part3": "Helm"
+          "item1": "Cloud Native",
+          "item2": "Kubernetes",
+          "item3": "Docker",
+          "item4": "Helm"
         }
       },
       "part4": {
         "text": "Understands virtualization technology and is familiar with tools such as VMware, VirtualBox, and Vagrant.",
         "emphasized": {
-          "part1": "VirtualBox",
-          "part2": "Vagrant",
-          "part3": "Vmware"
+          "item1": "VirtualBox",
+          "item2": "Vagrant",
+          "item3": "Vmware"
         }
       },
       "part5": {
         "text": "Proficient in using Git, GitHub, and other version control tools, as well as Jenkins and GitHub Actions for CI/CD.",
         "emphasized": {
-          "part1": "Git",
-          "part2": "GitHub",
-          "part4": "Jenkins",
-          "part5": "GitHub Actions"
+          "item1": "Jenkins",
+          "item2": "GitHub Actions"
         }
       },
       "part6": {
         "text": "Familiar with monitoring tools like Prometheus and Grafana.",
         "emphasized": {
-          "part1": "Prometheus",
-          "part2": "Grafana"
+          "item1": "Prometheus",
+          "item2": "Grafana"
         }
       },
       "part7": {
         "text": "Proficient in TCP/IP networking protocols and capable of analyzing and solving network-related issues.",
         "emphasized": {
-          "part1": "TCP/IP"
+          "item1": "TCP/IP"
         }
       },
       "part8": {
         "text": "Familiar with React and other related technologies, with some understanding of Frontend Development.",
         "emphasized": {
-          "part1": "React"
+          "item1": "React",
+          "item2": "Frontend"
         }
       }
     }
