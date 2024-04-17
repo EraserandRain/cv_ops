@@ -36,10 +36,9 @@ export const StrongTextList = ({ texts }: StrongTextListProps) => {
   )
 }
 
-export interface ProjectItemProps {
+export interface ProjectItemProps extends StrongTextListProps {
   title: string
   link?: string
-  texts: StrongTextProps[]
 }
 
 export const ProjectItem = ({ title, link, texts }: ProjectItemProps) => {
@@ -49,6 +48,28 @@ export const ProjectItem = ({ title, link, texts }: ProjectItemProps) => {
         <div className="flex items-center">
           <h3 className="inline-block ml-3 mr-2">{title}</h3>
           {link && <a href={link} className="inline-block text-main-color border-b-0"><GoLinkExternal /></a>}
+        </div>
+      </header>
+      <StrongTextList texts={texts} />
+    </li>
+  )
+}
+
+export interface JobItemProps {
+  title: string
+  position: string
+  range: string[]
+  texts: StrongTextProps[]
+}
+
+export const JobItem = ({ title, position, range, texts }: JobItemProps) => {
+  return (
+    <li className='mt-3 mb-5'>
+      <header className='flex flex-row items-center text-gray-600 mb-3'>
+        <h3 className='mr-auto'>{title}</h3>
+        <div className='flex items-center justify-between w-1/2'>
+          <h4 className='mr-4'>{position}</h4>
+          <span>{range.join(' ~ ')}</span>
         </div>
       </header>
       <StrongTextList texts={texts} />

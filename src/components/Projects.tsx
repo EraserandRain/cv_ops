@@ -2,11 +2,11 @@ import { ProjectItem, ProjectItemProps } from "components/TextComponents"
 import { useTranslations } from "next-intl"
 
 interface ProjectProps {
-  data: ProjectItemProps[]
   title: string
+  data: ProjectItemProps[]
 }
 
-const Project = ({ data, title }: ProjectProps) => {
+const Project = ({ title, data }: ProjectProps) => {
   return (
     <section>
       <h2>{title}</h2>
@@ -18,8 +18,6 @@ const Project = ({ data, title }: ProjectProps) => {
     </section>
   )
 }
-
-
 
 const Projects = () => {
   const repoT = useTranslations('Projects.Github')

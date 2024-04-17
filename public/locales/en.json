@@ -159,7 +159,7 @@
           "title": "Envmgr",
           "link": "https://github.com/EraserandRain/envmgr",
           "description": {
-            "para1":{
+            "para1": {
               "text": "Ansible deployment tool for quickly configuring development environments.",
               "emphasized": {
                 "item1": "Ansible"
@@ -171,7 +171,7 @@
           "title": "Container Collection",
           "link": "https://github.com/EraserandRain/container",
           "description": {
-            "para1":{
+            "para1": {
               "text": "A collection of container definitions for quickly configuring containers."
             }
           }
@@ -237,6 +237,52 @@
                 "item5": "webhook"
               }
             }
+          }
+        }
+      }
+    }
+  },
+  "Jobs": {
+    "title": "Work Experience",
+    "details": {
+      "part1": {
+        "title": "Advantest",
+        "position": "DevOps Engineer",
+        "range": {
+          "from": "July 2022",
+          "to": "Present"
+        },
+        "description": {
+          "para1": {
+            "text": "Responsible for Build Workflow CI/CD operations, and perform regular static code analysis to ensure stable operation of Daily Builds."
+          },
+          "para2": {
+            "text": "Handle Bug or Change Requests from clients, developers, and testers, and improve the DevOps process."
+          },
+          "para3": {
+            "text": "Responsible for the construction and management of development environments, using Docker, Kubernetes, etc., to achieve rapid setup, update, and destruction of environments."
+          }
+        }
+      },
+      "part2": {
+        "title": "Chuangqi Network",
+        "position": "Operations Engineer",
+        "range": {
+          "from": "December 2020",
+          "to": "July 2022"
+        },
+        "description": {
+          "para1": {
+            "text": "Monitor customer servers, respond to and handle monitoring alerts, and perform regular inspection tasks."
+          },
+          "para2": {
+            "text": "Responsible for the installation and deployment of LNMP environment, as well as the installation and configuration of network and common toolsets.",
+            "emphasized": {
+              "item1": "LNMP"
+            }
+          },
+          "para3": {
+            "text": "Operational maintenance of various business systems, and provide technical support to customers in coordination with other departments (customer service, solutions, research and development, etc.)."
           }
         }
       }

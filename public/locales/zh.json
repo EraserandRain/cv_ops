@@ -38,7 +38,6 @@
     "info": {
       "role": "基本信息：男 | 27岁 | 运维开发工程师 | 上海",
       "contact": "手机: 13856185908 | 邮箱: eraserandrain@gmail.com , 1349291258@qq.com",
-      "email": "",
       "education": "教育经历: 2014~2018 巢湖学院 电子科学与技术 统招全日制本科（学信网可查）"
     },
     "socialLink": {
@@ -180,7 +179,7 @@
       }
     },
     "Work": {
-      "title": "工作经历",
+      "title": "项目经历",
       "details": {
         "part1": {
           "title": "Build DevOps for Chip Test System",
@@ -238,6 +237,52 @@
                 "item5": "webhook"
               }
             }
+          }
+        }
+      }
+    }
+  },
+  "Jobs": {
+    "title": "工作经历",
+    "details": {
+      "part1": {
+        "title": "Advantest",
+        "position": "DevOps Engineer",
+        "range": {
+          "from": "2022.7",
+          "to": "至今"
+        },
+        "description": {
+          "para1": {
+            "text": "负责 Build Workflow CICD 运维工作，并定期对代码进行静态检查，确保 Daily Build 稳定运行。"
+          },
+          "para2": {
+            "text": "处理客户、开发、测试人员的 Bug 或 Change Requests ，完善 DevOps 流程。"
+          },
+          "para3": {
+            "text": "负责开发环境的构建管理工作，利用 Docker、Kubernetes 等实现环境快速搭建、更新与销毁。"
+          }
+        }
+      },
+      "part2": {
+        "title": "创旗网络",
+        "position": "运维工程师",
+        "range": {
+          "from": "2020.12",
+          "to": "2022.7"
+        },
+        "description": {
+          "para1": {
+            "text": "客户服务器监控,响应并处理监控告警，并定期进行巡检任务。"
+          },
+          "para2": {
+            "text": "负责 LNMP 环境安装部署、网络、通用工具集安装配置的工作。",
+            "emphasized": {
+              "item1": "LNMP"
+            }
+          },
+          "para3": {
+            "text": "各业务系统故障运维,同其他部门(客服、方案、研发等)协同为客户提供技术支持。"
           }
         }
       }

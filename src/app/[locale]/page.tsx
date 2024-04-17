@@ -23,7 +23,7 @@ export default function IndexPage({ params: { locale } }: Props) {
         <Bio />
         <Skills />
         <Projects />
-        {/* <Jobs /> */}
+        <Jobs />
       </PageLayout>
     </>
   )
