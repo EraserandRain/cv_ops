@@ -73,8 +73,8 @@ const Skills = () => {
       <h2>{t('title')}</h2>
       <SkillsRadar
         data={RadarKeys.map((key) => ({
-          subject: radarT(`${key}.subject` as any),
-          value: parseInt(radarT(`${key}.value` as any)),
+          name: radarT(`${key}` as any),
+          max: 100
         }))}
       />
       <StrongTextList texts={details} />

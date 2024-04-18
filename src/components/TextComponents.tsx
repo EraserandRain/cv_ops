@@ -67,7 +67,7 @@ export const JobItem = ({ title, position, range, texts }: JobItemProps) => {
     <li className='mt-3 mb-5'>
       <header className='flex flex-row items-center text-gray-600 mb-3'>
         <h3 className='mr-auto'>{title}</h3>
-        <div className='flex items-center justify-between w-1/2'>
+        <div className='flex items-center justify-between w-1/2 mr-12'>
           <h4 className='mr-4'>{position}</h4>
           <span>{range.join(' ~ ')}</span>
         </div>

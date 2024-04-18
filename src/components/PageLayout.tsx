@@ -14,7 +14,9 @@ export default function PageLayout({ children }: Props) {
     return (
         <>
             <h1 className="w-auto text-center">{t('title')}</h1>
-            <PrintBtn value={t('PrintBtn.value')} />
+            <div className="print-hidden">
+                <PrintBtn value={t('PrintBtn.value')} />
+            </div>
             <hr className={styledLine} />
             {children}
             <hr className={styledLine} />

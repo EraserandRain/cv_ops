@@ -49,7 +49,7 @@
       "blog": {
         "value": "Blog",
         "description": {
-          "text": "基于 Vuepress + GitHub Pages 的个人博客",
+          "text": "基于 Vuepress + GitHub Pages 的个人博客。",
           "emphasized": {
             "item1": "Vuepress",
             "item2": "GitHub Pages"
@@ -62,30 +62,12 @@
   "Skills": {
     "title": "职业技能",
     "radar": {
-      "part1": {
-        "subject": "Linux",
-        "value": "90"
-      },
-      "part2": {
-        "subject": "Kubernetes",
-        "value": "70"
-      },
-      "part3": {
-        "subject": "CICD",
-        "value": "80"
-      },
-      "part4": {
-        "subject": "Shell",
-        "value": "80"
-      },
-      "part5": {
-        "subject": "Frontend",
-        "value": "80"
-      },
-      "part6": {
-        "subject": "Docker",
-        "value": "70"
-      }
+      "part1": "Linux",
+      "part2": "Kubernetes",
+      "part3": "CICD",
+      "part4": "Shell",
+      "part5": "Frontend",
+      "part6": "Docker"
     },
     "details": {
       "part1": {

@@ -49,7 +49,7 @@
       "blog": {
         "value": "Blog",
         "description": {
-          "text": "A personal blog powered by Vuepress and GitHub Pages",
+          "text": "A personal blog powered by Vuepress and GitHub Pages.",
           "emphasized": {
             "item1": "Vuepress",
             "item2": "GitHub Pages"
@@ -62,30 +62,12 @@
   "Skills": {
     "title": "Skills",
     "radar": {
-      "part1": {
-        "subject": "Linux",
-        "value": "90"
-      },
-      "part2": {
-        "subject": "Kubernetes",
-        "value": "70"
-      },
-      "part3": {
-        "subject": "CICD",
-        "value": "80"
-      },
-      "part4": {
-        "subject": "Shell",
-        "value": "80"
-      },
-      "part5": {
-        "subject": "Frontend",
-        "value": "80"
-      },
-      "part6": {
-        "subject": "Docker",
-        "value": "70"
-      }
+      "part1": "Linux",
+      "part2": "Kubernetes",
+      "part3": "CICD",
+      "part4": "Shell",
+      "part5": "Frontend",
+      "part6": "Docker"
     },
     "details": {
       "part1": {
@@ -225,7 +207,7 @@
           "title": "Ops work of the Security System for Shanghai UnionPay",
           "description": {
             "para1": {
-              "text": "Responsible for overseeing the installation, deployment, and centralized management of all network devices, followed by ongoing monitoring, tracking, optimization, and maintenance tasks."
+              "text": "Responsible for overseeing the installation, deployment, and centralized management of all network devices, followed by ongoing monitoring, tracking, optimization, and other tasks."
             },
             "para2": {
               "text": "The project used Prometheus + Grafana as the monitoring tool, and node-exporter, alertmanager and other modules to collect the running status of servers, SNMP network devices and related services, and send alerts to DingTalk via webhook.",
@@ -249,7 +231,7 @@
         "title": "Advantest",
         "position": "DevOps Engineer",
         "range": {
-          "from": "July 2022",
+          "from": "2022.7",
           "to": "Present"
         },
         "description": {
@@ -265,11 +247,11 @@
         }
       },
       "part2": {
-        "title": "Chuangqi Network",
-        "position": "Operations Engineer",
+        "title": "Trunkey Network",
+        "position": "Ops Engineer",
         "range": {
-          "from": "December 2020",
-          "to": "July 2022"
+          "from": "2020.12",
+          "to": "2022.7"
         },
         "description": {
           "para1": {

@@ -1,35 +1,48 @@
 'use client'
-import { RadarChart, PolarGrid, PolarAngleAxis, Radar, Legend } from 'recharts'
+import React, { useEffect, useRef } from 'react'
+import * as echarts from 'echarts'
 
 interface skill {
-    subject: string
-    value: number
+    name: string
+    max: number
 }
 
 export const SkillsRadar = ({ data }: { data: skill[] }) => {
+    const chartRef = useRef(null)
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            const myChart = echarts.init(chartRef.current)
+
+            const option = {
+                radar: {
+                    indicator: data
+                },
+                series: [
+                    {
+                        type: 'radar',
+                        data: [
+                            {
+                                value: [90, 70, 80, 80, 80, 70],
+                                name: '技能雷达'
+                            }
+                        ]
+                    }
+                ]
+            }
+
+            myChart.setOption(option)
+
+            // Clean up function to destroy the chart when component unmounts
+            return () => {
+                myChart.dispose()
+            }
+        }
+    }, [])
+
     return (
         <div className='flex justify-center'>
-            <RadarChart
-                width={600}
-                height={350}
-                cx="50%"
-                cy="50%"
-                outerRadius={120}
-                data={data}
-            >
-                <PolarGrid />
-                <PolarAngleAxis
-                    dataKey="subject"
-                />
-                <Radar
-                    dataKey="value"
-                    stroke="var(--main-color)"
-                    fill="var(--main-color)"
-                    fillOpacity={0.3}
-                    legendType="none"
-                />
-                <Legend />
-            </RadarChart>
+            <div ref={chartRef} style={{ width: '80%', height: '350px' }} />
         </div>
     )
 }
