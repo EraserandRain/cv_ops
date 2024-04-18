@@ -20,13 +20,13 @@
   },
   "Navigation": {
     "home": "Start",
-    "pathnames": "Pfadnamen"
-  },
-  "PageLayout": {
-    "title": "姜盛乾个人简历",
+    "pathnames": "Pfadnamen",
     "PrintBtn": {
       "value": "导出PDF"
     }
+  },
+  "PageLayout": {
+    "title": "姜盛乾个人简历"
   },
   "Bio": {
     "title": "基本概况",

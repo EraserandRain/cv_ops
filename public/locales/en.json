@@ -20,13 +20,13 @@
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
-  },
-  "PageLayout": {
-    "title": "Personal Resume of Jiang",
+    "pathnames": "Pathnames",
     "PrintBtn": {
       "value": "Export to PDF"
     }
+  },
+  "PageLayout": {
+    "title": "Personal Resume of Jiang"
   },
   "Bio": {
     "title": "Bio",
