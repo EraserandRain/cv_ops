@@ -38,7 +38,7 @@ export const SkillsRadar = ({ data }: { data: skill[] }) => {
                 myChart.dispose()
             }
         }
-    }, [])
+    }, [data])
 
     return (
         <div className='flex justify-center'>
