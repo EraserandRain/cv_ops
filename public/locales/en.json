@@ -12,7 +12,7 @@
     "description": "Please double-check the browser address bar or use the navigation to go to a known page."
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "Personal Resume of Jiang"
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -71,14 +71,14 @@
     },
     "details": {
       "part1": {
-        "text": "Proficient in Linux and Windows operating systems, and comfortable using Bash and Powershell for daily tasks.",
+        "text": "Proficient in Linux and Windows OS, adeptly navigating Bash and Powershell for daily tasks.",
         "emphasized": {
           "item1": "Bash",
           "item2": "Powershell"
         }
       },
       "part2": {
-        "text": "Familiar with Shell, Python, and Perl languages, with some understanding of Golang and JavaScript. Able to use automation scripts to solve daily work problems.",
+        "text": "Proficient in scripting with Shell, Python, and Perl, with a grasp of Golang and JavaScript.",
         "emphasized": {
           "item1": "Shell",
           "item2": "Python",
@@ -88,7 +88,7 @@
         }
       },
       "part3": {
-        "text": "Possesses some knowledge of Cloud Native technology, and is proficient in Kubernetes, Docker, and Helm tools.",
+        "text": "Well-versed in Cloud Native technology, demonstrating mastery in Kubernetes, Docker, and Helm.",
         "emphasized": {
           "item1": "Cloud Native",
           "item2": "Kubernetes",
@@ -97,7 +97,7 @@
         }
       },
       "part4": {
-        "text": "Understands virtualization technology and is familiar with tools such as VMware, VirtualBox, and Vagrant.",
+        "text": "Knowledgeable in virtualization technology, utilizing VMware, VirtualBox, and Vagrant tools effectively.",
         "emphasized": {
           "item1": "VirtualBox",
           "item2": "Vagrant",
@@ -112,7 +112,7 @@
         }
       },
       "part6": {
-        "text": "Familiar with monitoring tools like Prometheus and Grafana.",
+        "text": "Familiar with monitoring tools like Prometheus and Grafana, ensuring robust performance analysis and optimization.",
         "emphasized": {
           "item1": "Prometheus",
           "item2": "Grafana"
@@ -125,7 +125,7 @@
         }
       },
       "part8": {
-        "text": "Familiar with React and other related technologies, with some understanding of Frontend Development.",
+        "text": "Familiar with React and related technologies, with a foundational understanding of Frontend Development.",
         "emphasized": {
           "item1": "React",
           "item2": "Frontend"
