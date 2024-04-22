@@ -102,8 +102,8 @@ const Projects = () => {
 
   return (
     <>
-      <div className="subdivision"></div>
       <Project title={repoT('title')} data={RepoData} />
+      <div className="subdivision"></div>
       <Project title={workT('title')} data={WorkData} />
     </>
   )

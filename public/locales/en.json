@@ -62,12 +62,12 @@
   "Skills": {
     "title": "Skills",
     "radar": {
-      "part1": "Linux",
-      "part2": "Kubernetes",
+      "part1": "Script Languages",
+      "part2": "Docker",
       "part3": "CICD",
-      "part4": "Shell",
+      "part4": "Git",
       "part5": "Frontend",
-      "part6": "Docker"
+      "part6": "Kubernetes"
     },
     "details": {
       "part1": {
@@ -88,43 +88,36 @@
         }
       },
       "part3": {
-        "text": "Well-versed in Cloud Native technology, demonstrating mastery in Kubernetes, Docker, and Helm.",
+        "text": "Well-versed in Cloud Native technology, proficient in Kubernetes, Docker, Helm, Vagrant and etc.",
         "emphasized": {
           "item1": "Cloud Native",
           "item2": "Kubernetes",
           "item3": "Docker",
-          "item4": "Helm"
+          "item4": "Helm",
+          "item5": "Vagrant"
         }
       },
       "part4": {
-        "text": "Knowledgeable in virtualization technology, utilizing VMware, VirtualBox, and Vagrant tools effectively.",
-        "emphasized": {
-          "item1": "VirtualBox",
-          "item2": "Vagrant",
-          "item3": "Vmware"
-        }
-      },
-      "part5": {
         "text": "Proficient in using Git, GitHub, and other version control tools, as well as Jenkins and GitHub Actions for CI/CD.",
         "emphasized": {
           "item1": "Jenkins",
           "item2": "GitHub Actions"
         }
       },
-      "part6": {
+      "part5": {
         "text": "Familiar with monitoring tools like Prometheus and Grafana, ensuring robust performance analysis and optimization.",
         "emphasized": {
           "item1": "Prometheus",
           "item2": "Grafana"
         }
       },
-      "part7": {
+      "part6": {
         "text": "Proficient in TCP/IP networking protocols and capable of analyzing and solving network-related issues.",
         "emphasized": {
           "item1": "TCP/IP"
         }
       },
-      "part8": {
+      "part7": {
         "text": "Familiar with React and related technologies, with a foundational understanding of Frontend Development.",
         "emphasized": {
           "item1": "React",
@@ -239,7 +232,7 @@
             "text": "Responsible for Build Workflow CI/CD operations, and perform regular static code analysis to ensure stable operation of Daily Builds."
           },
           "para2": {
-            "text": "Handle Bug or Change Requests from clients, developers, and testers, and improve the DevOps process."
+            "text": "Handle Bugs or CRs from clients, developers, and testers, and improve DevOps process."
           },
           "para3": {
             "text": "Responsible for the construction and management of development environments, using Docker, Kubernetes, etc., to achieve rapid setup, update, and destruction of environments."
@@ -255,7 +248,7 @@
         },
         "description": {
           "para1": {
-            "text": "Monitor customer servers, respond to and handle monitoring alerts, and perform regular inspection tasks."
+            "text": "Monitor servers, handle monitoring alerts, and perform regular inspection tasks."
           },
           "para2": {
             "text": "Responsible for the installation and deployment of LNMP environment, as well as the installation and configuration of network and common toolsets.",
@@ -264,7 +257,7 @@
             }
           },
           "para3": {
-            "text": "Operational maintenance of various business systems, and provide technical support to customers in coordination with other departments (customer service, solutions, research and development, etc.)."
+            "text": "Provide technical support to customers in coordination with other departments."
           }
         }
       }

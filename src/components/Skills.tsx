@@ -31,7 +31,8 @@ const Skills = () => {
         detailsT('part3.emphasized.item1'),
         detailsT('part3.emphasized.item2'),
         detailsT('part3.emphasized.item3'),
-        detailsT('part3.emphasized.item4')
+        detailsT('part3.emphasized.item4'),
+        detailsT('part3.emphasized.item5')
       ]
     },
     {
@@ -39,7 +40,6 @@ const Skills = () => {
       subStrs: [
         detailsT('part4.emphasized.item1'),
         detailsT('part4.emphasized.item2'),
-        detailsT('part4.emphasized.item3')
       ]
     },
     {
@@ -52,18 +52,12 @@ const Skills = () => {
       mainStr: detailsT('part6.text'),
       subStrs: [
         detailsT('part6.emphasized.item1'),
-        detailsT('part6.emphasized.item2'),
       ]
     }, {
       mainStr: detailsT('part7.text'),
       subStrs: [
         detailsT('part7.emphasized.item1'),
-      ]
-    }, {
-      mainStr: detailsT('part8.text'),
-      subStrs: [
-        detailsT('part8.emphasized.item1'),
-        detailsT('part8.emphasized.item2')
+        detailsT('part7.emphasized.item2')
       ]
     }
   ]

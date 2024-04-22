@@ -9,7 +9,7 @@ type Props = {
 
 export default function PageLayout({ children }: Props) {
     const t = useTranslations('PageLayout')
-    const styledLine = clsx("border border-solid border-main-color mx-auto my-12")
+    const styledLine = clsx("border border-solid border-main-color mx-auto")
 
     return (
         <>

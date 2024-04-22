@@ -42,7 +42,7 @@ export const SkillsRadar = ({ data }: { data: skill[] }) => {
 
     return (
         <div className='flex justify-center'>
-            <div ref={chartRef} style={{ width: '80%', height: '350px' }} />
+            <div ref={chartRef} style={{ width: '65%', height: '280px' }} />
         </div>
     )
 }

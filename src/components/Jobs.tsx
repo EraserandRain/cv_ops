@@ -60,7 +60,6 @@ const Jobs = () => {
     ]
     return (
         <>
-            <div className="subdivision"></div>
             <Job title={t('title')} data={jobData} />
         </>
     )
