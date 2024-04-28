@@ -33,7 +33,9 @@ const Jobs = () => {
             texts: [
                 { mainStr: jobT('part1.description.para1.text') },
                 { mainStr: jobT('part1.description.para2.text') },
-                { mainStr: jobT('part1.description.para3.text') }
+                { mainStr: jobT('part1.description.para3.text') },
+                { mainStr: jobT('part1.description.para4.text') },
+                { mainStr: jobT('part1.description.para5.text') }
             ]
         }, {
             title: jobT('part2.title'),

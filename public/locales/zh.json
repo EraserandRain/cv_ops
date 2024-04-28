@@ -229,13 +229,19 @@
         },
         "description": {
           "para1": {
-            "text": "负责 Build Workflow CICD 运维工作，并定期对代码进行静态检查，确保 Daily Build 稳定运行。"
+            "text": "负责 Build Workflow CI/CD 工作流构建，并持续优化 CI/CD 流程，确保 Daily Build 稳定运行。"
           },
           "para2": {
-            "text": "处理客户、开发、测试人员的 Bug 或 Change Requests ，完善 DevOps 流程。"
+            "text": "处理客户、开发、测试人员的 Bug 或 Change Requests，响应率达到 95% 以上，完善 DevOps 流程。"
           },
           "para3": {
-            "text": "负责开发环境的构建管理工作，利用 Docker、Kubernetes 等实现环境快速搭建、更新与销毁。"
+            "text": "负责开发环境的构建管理工作，利用 Docker、Kubernetes 等实现本地环境的搭建与变更，实现环境一致性。"
+          },
+          "para4": {
+            "text": "负责编写和更新多篇运维文档及 FAQ ，文档覆盖率超 90%，为团队内部提供支持与参考，提高沟通效率。"
+          },
+          "para5": {
+            "text": "改善 Build 流程易用性和可维护性，结合日常需求和团队反馈，优化 Build 流程，缩短 Daily Build 平均时长超过 25%。"
           }
         }
       },

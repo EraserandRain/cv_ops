@@ -229,13 +229,19 @@
         },
         "description": {
           "para1": {
-            "text": "Responsible for Build Workflow CI/CD operations, and perform regular static code analysis to ensure stable operation of Daily Builds."
+            "text": "Responsible for building and continuously optimizing the CI/CD workflow to ensure stable daily builds."
           },
           "para2": {
-            "text": "Handle Bugs or CRs from clients, developers, and testers, and improve DevOps process."
+            "text": "Handled bug reports and change requests from clients, developers, and testers with a response rate above 95%, enhancing the DevOps processes."
           },
           "para3": {
-            "text": "Responsible for the construction and management of development environments, using Docker, Kubernetes, etc., to achieve rapid setup, update, and destruction of environments."
+            "text": "Managed the development environment setup using Docker, Kubernetes, and other tools to achieve local environment consistency."
+          },
+          "para4": {
+            "text": "Wrote and updated multiple operational documentation and FAQs, achieving over 90% documentation coverage to provide internal team support and improve communication efficiency."
+          },
+          "para5": {
+            "text": "Improved the usability and maintainability of the build process by incorporating daily requirements and team feedback, reducing the average daily build time by over 25%."
           }
         }
       },
