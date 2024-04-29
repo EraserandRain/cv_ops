@@ -65,6 +65,13 @@ const Projects = () => {
             workT('details.part1.description.para3.emphasized.item1'),
             workT('details.part1.description.para3.emphasized.item2')
           ]
+        },
+        {
+          mainStr: workT('details.part1.description.para4.text'),
+          subStrs: [
+            workT('details.part1.description.para4.emphasized.item1'),
+            workT('details.part1.description.para4.emphasized.item2')
+          ]
         }
       ]
     }, {

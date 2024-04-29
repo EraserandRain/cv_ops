@@ -51,11 +51,15 @@ const Jobs = () => {
                 {
                     mainStr: jobT('part2.description.para2.text'),
                     subStrs: [
-                        jobT('part2.description.para2.emphasized.item1')
+                        jobT('part2.description.para2.emphasized.item1'),
+                        jobT('part2.description.para2.emphasized.item2')
                     ]
                 },
                 {
                     mainStr: jobT('part2.description.para3.text')
+                },
+                {
+                    mainStr: jobT('part2.description.para4.text')
                 }
             ]
         }

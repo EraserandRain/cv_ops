@@ -176,6 +176,13 @@
                 "item1": "Jenkins",
                 "item2": "Buildbot"
               }
+            },
+            "para4": {
+              "text": "Leveraging Python and Shell for DevOps Automation: Streamlining Operations through File Processing, Configuration Management, and System Administration.",
+              "emphasized": {
+                "item1": "Python",
+                "item2": "Shell"
+              }
             }
           }
         },
@@ -254,15 +261,19 @@
         },
         "description": {
           "para1": {
-            "text": "Monitor servers, handle monitoring alerts, and perform regular inspection tasks."
+            "text": "Monitor servers, handle monitoring alerts, and perform regular inspection tasks to mitigate risks of potential failures."
           },
           "para2": {
-            "text": "Responsible for the installation and deployment of LNMP environment, as well as the installation and configuration of network and common toolsets.",
+            "text": "Responsible for the installation and deployment of LNMP environment, as well as the installation and configuration of network and common toolsets. Developed and implemented operational tool scripts, leveraging automation tools such as Ansible, resulting in a 30% increase in daily work efficiency.",
             "emphasized": {
-              "item1": "LNMP"
+              "item1": "LNMP",
+              "item2": "Ansible"
             }
           },
           "para3": {
+            "text": "Developed and implemented operational tool scripts, leveraging automation tools such as Ansible, resulting in a 30% increase in daily work efficiency."
+          },
+          "para4": {
             "text": "Provide technical support to customers in coordination with other departments."
           }
         }
