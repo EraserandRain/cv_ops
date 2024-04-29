@@ -277,6 +277,25 @@
             "text": "Provide technical support to customers in coordination with other departments."
           }
         }
+      },
+      "part3": {
+        "title": "RedInfo",
+        "position": "Hardware Ops Engineer",
+        "range": {
+          "from": "2018.6",
+          "to": "2020.11"
+        },
+        "description": {
+          "para1": {
+            "text": "Responsible for the installation, deployment, and configuration of product systems, software, and databases. Provide technical support to clients, actively addressing software and hardware-related issues."
+          },
+          "para2": {
+            "text": "Conduct remote or on-site troubleshooting of complex problems, while documenting experiences to minimize system failure rates and enhance system stability."
+          },
+          "para3": {
+            "text": "Coordinate and monitor other operational tasks related to company products and provide technical support to ensure timely and successful project completion."
+          }
+        }
       }
     }
   }

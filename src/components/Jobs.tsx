@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl'
 import { JobItem, JobItemProps } from './TextComponents'
 
 interface JobProps {
-    title: string
+    title?: string
     data: JobItemProps[]
 }
 
@@ -45,8 +45,8 @@ const Jobs = () => {
                 jobT('part2.range.to'),
             ],
             texts: [
-                { 
-                    mainStr: jobT('part2.description.para1.text') 
+                {
+                    mainStr: jobT('part2.description.para1.text')
                 },
                 {
                     mainStr: jobT('part2.description.para2.text'),
@@ -64,9 +64,24 @@ const Jobs = () => {
             ]
         }
     ]
+    const jobData2: JobItemProps[] = [{
+        title: jobT('part3.title'),
+        position: jobT('part3.position'),
+        range: [
+            jobT('part3.range.from'),
+            jobT('part3.range.to'),
+        ],
+        texts: [
+            { mainStr: jobT('part3.description.para1.text') },
+            { mainStr: jobT('part3.description.para2.text') },
+            { mainStr: jobT('part3.description.para3.text') }
+        ]
+    }]
     return (
         <>
             <Job title={t('title')} data={jobData} />
+            <div className='subdivision'></div>
+            <Job data={jobData2} />
         </>
     )
 }
