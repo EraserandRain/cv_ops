@@ -8,7 +8,7 @@ interface JobProps {
 
 const Job = ({ title, data }: JobProps) => {
     return (
-        <section>
+        <section className='mb-8'>
             <h2>{title}</h2>
             <ol>
                 {data.map((job, index) => (
