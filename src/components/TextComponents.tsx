@@ -57,7 +57,7 @@ export const ProjectItem = ({ title, link, texts }: ProjectItemProps) => {
 
 export interface JobItemProps {
   title: string
-  position: string
+  position?: string
   range: string[]
   texts: StrongTextProps[]
 }

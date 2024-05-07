@@ -12,7 +12,7 @@
     "description": "Please double-check the browser address bar or use the navigation to go to a known page."
   },
   "LocaleLayout": {
-    "title": "Personal Resume of Jiang"
+    "title": "DevOps_en_240506"
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -31,7 +31,7 @@
   "Bio": {
     "title": "Bio",
     "bioImg": {
-      "src": "/toad.jpg",
+      "src": "/me.jpeg",
       "width": "100",
       "height": "100"
     },
@@ -228,7 +228,7 @@
     "title": "Work Experience",
     "details": {
       "part1": {
-        "title": "Advantest",
+        "title": "Huatek",
         "position": "DevOps Engineer",
         "range": {
           "from": "2022.7",
@@ -279,11 +279,23 @@
         }
       },
       "part3": {
+        "title": "Gap Time",
+        "range": {
+          "from": "2020.1",
+          "to": "2020.11"
+        },
+        "description": {
+          "para1": {
+            "text": "During this period, I've been fully immersed in exam preparation. Although it's disappointing not to have succeeded, I've taken the opportunity to reflect on and analyze my failures, recalibrate my mindset, and clarify my future career direction. Simultaneously, I've been honing my skills in Ops."
+          }
+        }
+      },
+      "part4": {
         "title": "RedInfo",
         "position": "Hardware Ops Engineer",
         "range": {
-          "from": "2018.6",
-          "to": "2020.11"
+          "from": "2019.5",
+          "to": "2019.12"
         },
         "description": {
           "para1": {
@@ -294,6 +306,22 @@
           },
           "para3": {
             "text": "Coordinate and monitor other operational tasks related to company products and provide technical support to ensure timely and successful project completion."
+          }
+        }
+      },
+      "part5": {
+        "title": "Jinli Eletric",
+        "position": "Eletric Engineer",
+        "range": {
+          "from": "2018.6",
+          "to": "2019.4"
+        },
+        "description": {
+          "para1": {
+            "text": "Responsible for electrical design, debugging, testing, and drafting of products to ensure compliance with standards and enhance product quality."
+          },
+          "para2": {
+            "text": "Draft technical documents according to the standards, and organize, categorize, and archive them accordingly."
           }
         }
       }

@@ -12,7 +12,7 @@
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
   },
   "LocaleLayout": {
-    "title": "姜盛乾个人简历_运维开发工程师_240429"
+    "title": "姜盛乾个人简历_运维开发工程师_240506"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
@@ -31,7 +31,7 @@
   "Bio": {
     "title": "基本概况",
     "bioImg": {
-      "src": "/toad.jpg",
+      "src": "/me.jpeg",
       "width": "100",
       "height": "100"
     },
@@ -228,8 +228,8 @@
     "title": "工作经历",
     "details": {
       "part1": {
-        "title": "Advantest",
-        "position": "DevOps Engineer",
+        "title": "华泰软件",
+        "position": "运维开发工程师",
         "range": {
           "from": "2022.7",
           "to": "至今"
@@ -279,11 +279,23 @@
         }
       },
       "part3": {
+        "title": "Gap Time",
+        "range": {
+          "from": "2020.1",
+          "to": "2020.11"
+        },
+        "description": {
+          "para1": {
+            "text": "这段期间一直在集中精力备考，虽然遗憾没有上岸，但通过失败后的复盘与思考，重新调整状态，并明确了自己未来的职业规划方向，同时精进运维相关的技能。"
+          }
+        }
+      },
+      "part4": {
         "title": "瑞德信息",
         "position": "运维工程师",
         "range": {
-          "from": "2018.6",
-          "to": "2020.11"
+          "from": "2019.5",
+          "to": "2019.12"
         },
         "description": {
           "para1": {
@@ -294,6 +306,22 @@
           },
           "para3": {
             "text": "负责公司产品的其他运维工作和现场项目的协调跟进，确保项目按时按量完成，为项目提供相应的技术保障。"
+          }
+        }
+      },
+      "part5": {
+        "title": "金力电气",
+        "position": "电气工程师",
+        "range": {
+          "from": "2018.6",
+          "to": "2019.4"
+        },
+        "description": {
+          "para1": {
+            "text": "负责公司产品的电气设计、调试、测试、制图等工作，确保产品符合标准，提高产品质量。"
+          },
+          "para2": {
+            "text": "根据公司标准编写技术文件，并进行汇总、分类、整理和归档。"
           }
         }
       }

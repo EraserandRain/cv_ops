@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 import { JobItem, JobItemProps } from './TextComponents'
 
 interface JobProps {
@@ -20,6 +20,7 @@ const Job = ({ title, data }: JobProps) => {
 }
 
 const Jobs = () => {
+    const locale = useLocale()
     const t = useTranslations('Jobs')
     const jobT = useTranslations('Jobs.details')
     const jobData: JobItemProps[] = [
@@ -37,51 +38,77 @@ const Jobs = () => {
                 { mainStr: jobT('part1.description.para4.text') },
                 { mainStr: jobT('part1.description.para5.text') }
             ]
-        }, {
-            title: jobT('part2.title'),
-            position: jobT('part2.position'),
-            range: [
-                jobT('part2.range.from'),
-                jobT('part2.range.to'),
-            ],
-            texts: [
-                {
-                    mainStr: jobT('part2.description.para1.text')
-                },
-                {
-                    mainStr: jobT('part2.description.para2.text'),
-                    subStrs: [
-                        jobT('part2.description.para2.emphasized.item1'),
-                        jobT('part2.description.para2.emphasized.item2')
-                    ]
-                },
-                {
-                    mainStr: jobT('part2.description.para3.text')
-                },
-                {
-                    mainStr: jobT('part2.description.para4.text')
-                }
-            ]
-        }
+        },
     ]
+
     const jobData2: JobItemProps[] = [{
+        title: jobT('part2.title'),
+        position: jobT('part2.position'),
+        range: [
+            jobT('part2.range.from'),
+            jobT('part2.range.to'),
+        ],
+        texts: [
+            {
+                mainStr: jobT('part2.description.para1.text')
+            },
+            {
+                mainStr: jobT('part2.description.para2.text'),
+                subStrs: [
+                    jobT('part2.description.para2.emphasized.item1'),
+                    jobT('part2.description.para2.emphasized.item2')
+                ]
+            },
+            {
+                mainStr: jobT('part2.description.para3.text')
+            },
+            {
+                mainStr: jobT('part2.description.para4.text')
+            }
+        ]
+    }]
+
+    const jobData3: JobItemProps[] = [{
         title: jobT('part3.title'),
-        position: jobT('part3.position'),
         range: [
             jobT('part3.range.from'),
             jobT('part3.range.to'),
         ],
         texts: [
             { mainStr: jobT('part3.description.para1.text') },
-            { mainStr: jobT('part3.description.para2.text') },
-            { mainStr: jobT('part3.description.para3.text') }
+        ]
+    }, {
+        title: jobT('part4.title'),
+        position: jobT('part4.position'),
+        range: [
+            jobT('part4.range.from'),
+            jobT('part4.range.to'),
+        ],
+        texts: [
+            { mainStr: jobT('part4.description.para1.text') },
+            { mainStr: jobT('part4.description.para2.text') },
+            { mainStr: jobT('part4.description.para3.text') },
+        ]
+    }, {
+        title: jobT('part5.title'),
+        position: jobT('part5.position'),
+        range: [
+            jobT('part5.range.from'),
+            jobT('part5.range.to'),
+        ],
+        texts: [
+            { mainStr: jobT('part5.description.para1.text') },
+            { mainStr: jobT('part5.description.para2.text') },
         ]
     }]
+
     return (
         <>
             <Job title={t('title')} data={jobData} />
-            <div className='subdivision'></div>
+            {locale === 'en' && <div className="subdivision"></div>}
             <Job data={jobData2} />
+            {locale === 'zh' && <div className="subdivision"></div>}
+            <Job data={jobData3} />
         </>
     )
 }
